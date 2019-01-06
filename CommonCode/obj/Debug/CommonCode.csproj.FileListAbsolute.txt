@@ -1,0 +1,5 @@
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Debug\CommonCode.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Debug\CommonCode.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\obj\Debug\CommonCode.csproj.CoreCompileInputs.cache
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\obj\Debug\CommonCode.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\obj\Debug\CommonCode.pdb
