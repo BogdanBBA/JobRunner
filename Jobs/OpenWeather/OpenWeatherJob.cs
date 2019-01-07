@@ -54,6 +54,7 @@ namespace Jobs.OpenWeather
                         WeatherStateDTO weather = WeatherStateDTO.FromCityResult(cityResult);
                         DL.AddWeatherStateAndUpdateCity(weather);
                     }
+                    log(false, "iteration completed successfully");
                     if (iteration < OWM.REQUESTS_PER_RUN)
                         Thread.Sleep(2100);
                 }

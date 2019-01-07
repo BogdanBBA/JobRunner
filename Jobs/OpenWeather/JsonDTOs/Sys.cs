@@ -14,7 +14,7 @@ namespace Jobs.OpenWeather.JsonDTOs
         public double Message { get; set; }
 
         [JsonProperty("country")]
-        public Country Country { get; set; }
+        public string Country { get; set; }
 
         [JsonProperty("sunrise")]
         public long Sunrise { get; set; }

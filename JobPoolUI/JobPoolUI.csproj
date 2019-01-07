@@ -36,7 +36,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>web-settings.ico</ApplicationIcon>
+    <ApplicationIcon>icon256px.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -135,6 +135,7 @@
     <None Include="Properties\waiting.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="icon256px.ico" />
     <Content Include="web-settings.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

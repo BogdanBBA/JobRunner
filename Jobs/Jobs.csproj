@@ -85,7 +85,6 @@
     <Compile Include="OpenWeather\DTOs\CityDTO.cs" />
     <Compile Include="OpenWeather\DTOs\WeatherStateDTO.cs" />
     <Compile Include="OpenWeather\JsonDTOs\CityResult.cs" />
-    <Compile Include="OpenWeather\JsonDTOs\OWMConverter.cs" />
     <Compile Include="OpenWeather\JsonDTOs\Clouds.cs" />
     <Compile Include="OpenWeather\JsonDTOs\Coord.cs" />
     <Compile Include="OpenWeather\JsonDTOs\MainWeatherData.cs" />

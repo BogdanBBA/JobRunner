@@ -8,7 +8,7 @@ namespace Jobs.OpenWeather.JsonDTOs
         public long Id { get; set; }
 
         [JsonProperty("main")]
-        public MainEnum Main { get; set; }
+        public string Main { get; set; }
 
         [JsonProperty("description")]
         public string Description { get; set; }

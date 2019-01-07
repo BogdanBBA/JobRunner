@@ -70,7 +70,7 @@ namespace Jobs.WebstoreProducts
             {
                 log(false, "Sending notification email...");
                 NotificationEmail.Send(
-                        NotificationEmail.GetEmailSubject(JobID, "prices changed"),
+                        NotificationEmail.GetEmailSubject(JobID, productsToNotifyAbout.Count > 0 ? "prices changed" : (failedUpdates.Count > 0 ? "updates failed" : "???")),
                         NotificationEmail.ComposeBody_WebstoreProducts(JobID, productsToNotifyAbout, failedUpdates),
                         true,
                         attachments);

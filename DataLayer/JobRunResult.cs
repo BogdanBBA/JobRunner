@@ -22,6 +22,6 @@ namespace DataLayer
             => JobRunErrorCodes.GetErrorCodeDescription(ResultCode);
 
         public override string ToSQL
-            => $"{JobID}, {Moment.ToSqlDateTime()}, {ResultCode}, {(ErrorDescription == null ? "NULL" : $"'{ErrorDescription}'")}";
+            => $"{JobID}, {Moment.ToSqlDateTime()}, {ResultCode}, {(ErrorDescription == null ? "NULL" : $"'{ErrorDescription.Replace("'", "''")}'")}";
     }
 }

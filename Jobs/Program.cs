@@ -1,6 +1,7 @@
 ﻿using DataLayer;
 using System;
 using System.Collections.Generic;
+using System.Data.SQLite;
 using System.Net.Mail;
 using System.Threading;
 
@@ -27,7 +28,7 @@ namespace Jobs
                 Console.ForegroundColor = ConsoleColor.White;
         }
 
-        static void Log(bool medium, string log) 
+        static void Log(bool medium, string log)
             => Log(medium ? LogLevel.Medium : LogLevel.Small, log);
 
         static JobLoggingDL DL = new JobLoggingDL();
@@ -60,7 +61,7 @@ namespace Jobs
                 BaseJob job = JobFactory.GetJob(jobID.Value);
                 result = job.Run(Log);
             }
-            catch(SmtpException smtp)
+            catch (SmtpException smtp)
             {
                 result = new JobRunResult(jobID ?? Const.JOB_UNKNOWN, DateTime.Now, JobRunErrorCodes.EMAIL_SENDING_ERROR, smtp.ToString());
             }
