@@ -28,8 +28,20 @@ namespace Jobs
         public static string ComposeBody(string contents)
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append($"<html><head></head><body><span style=\"font-family:Georgia;font-size:18px\">{contents}</span></body></html>");
+            sb.Append($"<html><head></head><body><span style=\"font-family:Georgia;font-size:18px\">{contents.Replace(Environment.NewLine, "<br>")}</span></body></html>");
             return sb.ToString();
+        }
+
+        public static string ComposeBody_Heartbeat(int jobID, int totalLogs24h, int errorLogCount24h)
+        {
+            StringBuilder sb = new StringBuilder()
+                .Append("Just to let you know - the jobs are alive and running.").Append(Environment.NewLine)
+                .Append($"E-mail sent {DateTime.Now:dddd, d MMMM yyyy, HH:mm:ss}. Cheers.");
+            if (errorLogCount24h > 0)
+                sb.Append(Environment.NewLine).Append(Environment.NewLine)
+                    .Append($"Oh, and by the way, there have been {Utils.Plural("job run log", errorLogCount24h, true)} with errors in the past 24 hours, ")
+                    .Append($"from a total of {Utils.Plural("run", totalLogs24h, true)}.");
+            return ComposeBody(sb.ToString());
         }
 
         public static string ComposeBody_Anniversaries(int jobID, List<AnniversaryDTO> anniversaries)
