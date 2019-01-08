@@ -11,9 +11,9 @@ namespace Jobs
     public class JobLoggingDL : BaseDL<JobLoggingTables>
     {
         private SQLiteConnection _connection;
-        protected override SQLiteConnection Connection 
+        protected override SQLiteConnection Connection
             => GetConnection(ref _connection, Const.DATABASE_JOB_LOGGING);
-        
+
         protected override void InitializeTableOverview()
         {
             AddTable(JobLoggingTables.Runs, "JobID INTEGER, Moment DATETIME, ResultCode INTEGER, ErrorDescription TEXT", "JobID, Moment, ResultCode, ErrorDescription");
@@ -26,9 +26,9 @@ namespace Jobs
             => $"{Last24HoursQuery} AND ResultCode != 0 AND ResultCode != 1";
 
         public int SelectLast24HErrorLogCount()
-            => (int)(long)ExecuteSQLScalar($"SELECT COUNT(*) FROM Runs WHERE {ErrorLogsInLast24HWhereContents}"); // ORDER BY Moment DESC
+            => (int)(long)ExecuteSQLScalar($"SELECT COUNT(*) FROM {Tables[JobLoggingTables.Runs].Name} WHERE {ErrorLogsInLast24HWhereContents}"); // ORDER BY Moment DESC
 
         public int SelectLast24HLogCount()
-            => (int)(long)ExecuteSQLScalar($"SELECT COUNT(*) FROM Runs WHERE {Last24HoursQuery}");
+            => (int)(long)ExecuteSQLScalar($"SELECT COUNT(*) FROM {Tables[JobLoggingTables.Runs].Name} WHERE {Last24HoursQuery}");
     }
 }

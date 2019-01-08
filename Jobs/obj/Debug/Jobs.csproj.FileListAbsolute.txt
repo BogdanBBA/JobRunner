@@ -26,3 +26,11 @@ C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.cs
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.csproj.CopyComplete
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.exe
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\WebDriver.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\WebDriver.Support.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\ThoughtWorks.Selenium.Core.xml
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\WebDriver.xml
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\WebDriver.Support.xml

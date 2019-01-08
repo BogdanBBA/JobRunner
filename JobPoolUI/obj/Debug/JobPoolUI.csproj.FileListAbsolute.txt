@@ -31,3 +31,5 @@ C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\Jo
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csproj.CopyComplete
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.exe
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\WebDriver.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\WebDriver.xml

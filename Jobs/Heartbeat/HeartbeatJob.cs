@@ -35,7 +35,8 @@ namespace Jobs.Heartbeat
             log(true, "Sending heartbeat e-mail...");
             NotificationEmail.Send(
                 NotificationEmail.GetEmailSubject(JobID, $"{DateTime.Now:ddd, d MMM yyyy} heartbeat"),
-                NotificationEmail.ComposeBody_Heartbeat(JobID, totalLogs, errorLogCount));
+                NotificationEmail.ComposeBody_Heartbeat(JobID, totalLogs, errorLogCount), 
+                true);
             hbDL.InsertData(HeartbeatTables.Dates, DateTime.Now.ToSqlDate());
         }
     }

@@ -19,6 +19,8 @@ namespace Jobs
                     return new WebstoreProducts.WebstoreProductsJob();
                 case Const.JOB_OPEN_WEATHER:
                     return new OpenWeather.OpenWeatherJob();
+                case Const.JOB_GOOGLE_FLIGHTS:
+                    return new GoogleFlights.GoogleFlightsJob();
                 default:
                     throw new ApplicationException($"JobFactory.Get*() ERROR: invalid jobID={jobID}");
             }
@@ -38,6 +40,8 @@ namespace Jobs
                     return "Webstore products";
                 case Const.JOB_OPEN_WEATHER:
                     return "Open Weather";
+                case Const.JOB_GOOGLE_FLIGHTS:
+                    return "Google Flights";
                 default:
                     throw new ApplicationException($"JobFactory.Get*() ERROR: invalid jobID={jobID}");
             }

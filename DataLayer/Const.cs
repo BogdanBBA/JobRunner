@@ -22,12 +22,14 @@ namespace DataLayer
         public const int JOB_ANNIVERSARIES = 3;
         public const int JOB_WEBSTORE_PRODUCTS = 4;
         public const int JOB_OPEN_WEATHER = 5;
+        public const int JOB_GOOGLE_FLIGHTS = 6;
 
         public const int FREQUENCY_HEARTBEAT = 2 * 3600;
         public const int FREQUENCY_DISK_SPACE = 4 * 3600;
         public const int FREQUENCY_ANNIVERSARIES = 2 * 3600;
         public const int FREQUENCY_WEBSTORE_PRODUCTS = 900;
         public const int FREQUENCY_OPEN_WEATHER = 300;
+        public const int FREQUENCY_GOOGLE_FLIGHTS = 2 * 3600;
 
         public static readonly string DATABASE_JOB_LOGGING;
         public static readonly string DATABASE_HEARTBEAT;
@@ -35,6 +37,7 @@ namespace DataLayer
         public static readonly string DATABASE_ANNIVERSARIES;
         public static readonly string DATABASE_WEBSTORE_PRODUCTS;
         public static readonly string DATABASE_OPEN_WEATHER;
+        public static readonly string DATABASE_GOOGLE_FLIGHTS;
 
         static Const()
         {
@@ -56,6 +59,7 @@ namespace DataLayer
             DATABASE_ANNIVERSARIES = FOLDER_DATABASES + "anniversaries.sqlite";
             DATABASE_WEBSTORE_PRODUCTS = FOLDER_DATABASES + "webstore-products.sqlite";
             DATABASE_OPEN_WEATHER = FOLDER_DATABASES + "open-weather.sqlite";
+            DATABASE_GOOGLE_FLIGHTS = FOLDER_DATABASES + "google-flights.sqlite";
 
             foreach (string path in new string[] { FOLDER_PROGRAM_FILES, FOLDER_DATABASES, FOLDER_WEBSTORE_PRODUCT_THUMBNAILS })
                 if (!Directory.Exists(path))
