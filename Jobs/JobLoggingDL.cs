@@ -26,9 +26,9 @@ namespace Jobs
             => $"{Last24HoursQuery} AND ResultCode != 0 AND ResultCode != 1";
 
         public int SelectLast24HErrorLogCount()
-            => (int)ExecuteSQLScalar($"SELECT COUNT(*) FROM Runs WHERE {ErrorLogsInLast24HWhereContents}"); // ORDER BY Moment DESC
+            => (int)(long)ExecuteSQLScalar($"SELECT COUNT(*) FROM Runs WHERE {ErrorLogsInLast24HWhereContents}"); // ORDER BY Moment DESC
 
         public int SelectLast24HLogCount()
-            => (int)ExecuteSQLScalar($"SELECT COUNT(*) FROM Runs WHERE {Last24HoursQuery}");
+            => (int)(long)ExecuteSQLScalar($"SELECT COUNT(*) FROM Runs WHERE {Last24HoursQuery}");
     }
 }
