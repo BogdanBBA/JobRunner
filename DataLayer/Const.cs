@@ -29,7 +29,7 @@ namespace DataLayer
         public const int FREQUENCY_ANNIVERSARIES = 2 * 3600;
         public const int FREQUENCY_WEBSTORE_PRODUCTS = 900;
         public const int FREQUENCY_OPEN_WEATHER = 300;
-        public const int FREQUENCY_GOOGLE_FLIGHTS = 2 * 3600;
+        public const int FREQUENCY_GOOGLE_FLIGHTS = 4 * 3600;
 
         public static readonly string DATABASE_JOB_LOGGING;
         public static readonly string DATABASE_HEARTBEAT;

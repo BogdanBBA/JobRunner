@@ -11,6 +11,7 @@ C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\Sy
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.Linq.dll
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\WebDriver.dll
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\CommonCode.pdb
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\DataLayer.pdb
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\DataLayer.dll.config
@@ -22,6 +23,7 @@ C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\Sy
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.dll.config
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\Newtonsoft.Json.pdb
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\WebDriver.xml
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csprojAssemblyReference.cache
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.FMain.resources
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.Properties.Resources.resources
@@ -31,5 +33,3 @@ C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\Jo
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csproj.CopyComplete
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.exe
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.pdb
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\WebDriver.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\WebDriver.xml

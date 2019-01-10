@@ -86,8 +86,8 @@ namespace DataLayer
 
         public SQLiteDataReader Select(Table table, string where = null, string orderBy = null, int limit = 0)
         {
-            string whereSql = where == null ? "" : $" WHERE {where}";
-            string orderBySql = orderBy == null ? "" : $" ORDER BY {orderBy}";
+            string whereSql = string.IsNullOrWhiteSpace(where) ? "" : $" WHERE {where}";
+            string orderBySql = string.IsNullOrWhiteSpace(orderBy) ? "" : $" ORDER BY {orderBy}";
             string limitSql = limit <= 0 ? "" : $" LIMIT {limit}";
             return ExecuteSQLReader($"SELECT {table.ColumnList} FROM {table.Name}{whereSql}{orderBySql}{limitSql};");
         }
@@ -97,6 +97,8 @@ namespace DataLayer
 
         public void InsertData(Table table, params string[] values)
         {
+            if (values.Length == 0)
+                return;
             StringBuilder sb = new StringBuilder($"INSERT INTO {table.Name}({table.ColumnList}) VALUES ");
             foreach (string value in values)
                 sb.Append($"({value}), ");
