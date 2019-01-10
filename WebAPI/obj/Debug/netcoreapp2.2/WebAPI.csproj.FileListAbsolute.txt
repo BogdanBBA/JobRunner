@@ -1,0 +1,13 @@
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.deps.json
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.json
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.dev.json
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cache
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cs
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfoInputs.cache
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfo.cs
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.pdb

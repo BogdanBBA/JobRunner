@@ -13,7 +13,7 @@ namespace CommonCode
             => $"DATE('{dateTime:yyyy-MM-dd}')";
 
         public static string ToSqlTime(this TimeSpan timeSpan, bool includeSeconds = false)
-            => $"TIME('{timeSpan.Hours}:{timeSpan.Minutes}{(includeSeconds ? $":{timeSpan.Seconds}" : "")}')";
+            => $"TIME('{timeSpan.Hours:D2}:{timeSpan.Minutes:D2}{(includeSeconds ? $":{timeSpan.Seconds:D2}" : "")}')";
 
         public static string ToYesNo(this bool boolean)
             => boolean ? "Yes" : "No";

@@ -88,8 +88,8 @@
     <Compile Include="DiskSpace\DiskSpaceDL.cs" />
     <Compile Include="DiskSpace\DiskSpaceJob.cs" />
     <Compile Include="DiskSpace\DiskSpaceRecordingDTO.cs" />
-    <Compile Include="GoogleFlights\DTOs\FlightDTO.cs" />
-    <Compile Include="GoogleFlights\DTOs\RecordingDTO.cs" />
+    <Compile Include="GoogleFlights\DTOs\PriceDTO.cs" />
+    <Compile Include="GoogleFlights\DTOs\RouteDTO.cs" />
     <Compile Include="GoogleFlights\GoogleFlightsDL.cs" />
     <Compile Include="GoogleFlights\GoogleFlightsJob.cs" />
     <Compile Include="Heartbeat\HeartbeatDL.cs" />

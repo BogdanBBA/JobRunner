@@ -15,7 +15,7 @@ namespace JobPoolUI.Classes
             new Tuple<int, int>(Const.JOB_ANNIVERSARIES, Const.FREQUENCY_ANNIVERSARIES),
             new Tuple<int, int>(Const.JOB_WEBSTORE_PRODUCTS, Const.FREQUENCY_WEBSTORE_PRODUCTS),
             new Tuple<int, int>(Const.JOB_OPEN_WEATHER, Const.FREQUENCY_OPEN_WEATHER),
-            //new Tuple<int, int>(Const.JOB_GOOGLE_FLIGHTS, Const.FREQUENCY_GOOGLE_FLIGHTS)
+            new Tuple<int, int>(Const.JOB_GOOGLE_FLIGHTS, Const.FREQUENCY_GOOGLE_FLIGHTS)
         };
     }
 }
