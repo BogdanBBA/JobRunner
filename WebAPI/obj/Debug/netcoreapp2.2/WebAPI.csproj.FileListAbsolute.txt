@@ -11,3 +11,4 @@ C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Debug\netco
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorTargetAssemblyInfo.cache
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.dll
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csprojAssemblyReference.cache
