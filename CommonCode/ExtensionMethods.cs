@@ -36,7 +36,7 @@ namespace CommonCode
 
         public static string ToHMS(this TimeSpan span, bool includeZeroFields = false)
         {
-            Dictionary<string, int> dict = new Dictionary<string, int>() { { "h", span.Hours }, { "m", span.Minutes }, { "s", span.Seconds } };
+            Dictionary<string, int> dict = new Dictionary<string, int>() { { "d", span.Days }, { "h", span.Hours }, { "m", span.Minutes }, { "s", span.Seconds } };
             StringBuilder sb = new StringBuilder();
             foreach (string key in dict.Keys)
                 if (includeZeroFields || dict[key] != 0)
