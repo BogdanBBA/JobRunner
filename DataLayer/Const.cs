@@ -24,7 +24,7 @@ namespace DataLayer
         public const int JOB_OPEN_WEATHER = 5;
         public const int JOB_GOOGLE_FLIGHTS = 6;
 
-        public const int FREQUENCY_HEARTBEAT = 2 * 3600;
+        public const int FREQUENCY_HEARTBEAT = 3600;
         public const int FREQUENCY_DISK_SPACE = 4 * 3600;
         public const int FREQUENCY_ANNIVERSARIES = 2 * 3600;
         public const int FREQUENCY_WEBSTORE_PRODUCTS = 900;
