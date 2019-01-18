@@ -40,12 +40,12 @@ namespace JobPoolUI.UI
                 if (now.CompareTo(Job.NextTargetExecutionMoment) < 0)
                 {
                     TimeSpan timeSpan = Job.NextTargetExecutionMoment.Subtract(now);
-                    state = $"Waiting for another {timeSpan.ToHMS()}";
+                    state = $"Waiting for another {timeSpan.ToDHMS()}";
                 }
                 else
                 {
                     TimeSpan timeSpan = now.Subtract(Job.NextTargetExecutionMoment);
-                    state = $"Waiting, late {timeSpan.ToHMS()}";
+                    state = $"Waiting, late {timeSpan.ToDHMS()}";
                 }
             }
             string timesRan = $"{Job.RunCount} {(Job.RunCount == 1 ? "time" : "times")}";

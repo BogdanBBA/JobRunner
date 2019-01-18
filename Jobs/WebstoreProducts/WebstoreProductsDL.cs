@@ -26,7 +26,7 @@ namespace Jobs.WebstoreProducts
         }
 
         private string JobsToRunQuery
-            => $"SELECT {Tables[WebstoreProductsTables.Products].ColumnList} FROM Products WHERE LastRun <= DATETIME('now', '-' || Frequency || ' seconds')";
+            => $"SELECT {Tables[WebstoreProductsTables.Products].ColumnList} FROM Products WHERE Active = 1 AND LastRun <= DATETIME('now', '-' || Frequency || ' seconds')";
 
         public bool ThereAreJobsToRunNow
             => (long)ExecuteSQLScalar($"SELECT EXISTS({JobsToRunQuery})") == 1;

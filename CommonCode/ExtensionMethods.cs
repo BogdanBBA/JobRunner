@@ -34,7 +34,7 @@ namespace CommonCode
             return $"{result:N1} {suffixes[order]}";
         }
 
-        public static string ToHMS(this TimeSpan span, bool includeZeroFields = false)
+        public static string ToDHMS(this TimeSpan span, bool includeZeroFields = false)
         {
             Dictionary<string, int> dict = new Dictionary<string, int>() { { "d", span.Days }, { "h", span.Hours }, { "m", span.Minutes }, { "s", span.Seconds } };
             StringBuilder sb = new StringBuilder();

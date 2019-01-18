@@ -86,7 +86,7 @@ namespace JobPoolUI
 
         private void CheckTimer_Tick(object sender, EventArgs e)
         {
-            Text = $"Job runner / running for {DateTime.Now.Subtract(appStartMoment).ToHMS()}";
+            Text = $"Job runner / running for {DateTime.Now.Subtract(appStartMoment).ToDHMS()}";
 
             // refresh each job control
             foreach (JobView jobView in JobViews)
