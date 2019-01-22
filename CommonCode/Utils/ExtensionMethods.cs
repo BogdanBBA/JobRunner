@@ -51,6 +51,31 @@ namespace CommonCode.Utils
             return sb.ToString();
         }
 
+        public static string Cleanup(this string text, bool makeLowercase = true)
+        {
+            string temp = new string(text.ToCharArray());
+            temp = temp.Replace("\t", " ");
+            while (temp.Contains("  "))
+                temp = temp.Replace("  ", " ");
+            temp = temp.Trim().ReplaceDiacritics();
+            if (makeLowercase)
+                temp = temp.ToLowerInvariant();
+            return temp;
+        }
+
+        public static string ReplaceDiacritics(this string text)
+        {
+            var dict = new Dictionary<string, string>() {
+                { "ă", "a" }, { "ã", "a" }, { "ā", "a" }, { "â", "a" }, { "î", "i" },
+                { "ș", "s" }, { "ş", "s" },
+                { "ţ", "t" }, { "ț", "t" }
+            };
+            string temp = new string(text.ToCharArray());
+            foreach (string key in dict.Keys)
+                temp = temp.Replace(key, dict[key]).Replace(key.ToUpperInvariant(), dict[key].ToUpperInvariant());
+            return temp;
+        }
+
         public static bool ContainsAll<TYPE>(this IEnumerable<TYPE> list, IEnumerable<TYPE> other)
         {
             return !other.ToList().Except(list.ToList()).Any();

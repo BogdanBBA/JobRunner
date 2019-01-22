@@ -4,3 +4,14 @@ C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\obj\Release\CommonCo
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\obj\Release\CommonCode.csproj.CoreCompileInputs.cache
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\obj\Release\CommonCode.dll
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\obj\Release\CommonCode.pdb
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Release\CommonCode.dll.config
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Release\EntityFramework.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Release\System.Data.SQLite.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Release\System.Data.SQLite.EF6.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Release\EntityFramework.xml
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Release\System.Data.SQLite.xml
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Release\System.Data.SQLite.dll.config
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\obj\Release\CommonCode.csproj.CopyComplete

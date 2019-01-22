@@ -77,8 +77,8 @@ namespace WebAPI.Controllers
                 List<Ingridients> mustNotHave = ParseIngridients(mustNotHaveList);
 
                 List<Food> result = FoodsOrganizer.Instance.Filter(
-                    ProcessNameFilter(restaurantName),
-                    ProcessNameFilter(foodName),
+                    FoodDeliveryUtils.ProcessNameFilter(restaurantName),
+                    FoodDeliveryUtils.ProcessNameFilter(foodName),
                     foodSource,
                     mustHave,
                     mustNotHave
@@ -92,17 +92,9 @@ namespace WebAPI.Controllers
             }
         }
 
-        private static string ProcessNameFilter(string filter)
-        {
-            filter = filter?.Trim().ToLowerInvariant();
-            if (string.IsNullOrEmpty(filter) || filter.Equals("*"))
-                return null;
-            return filter;
-        }
-
         private static List<Ingridients> ParseIngridients(string list)
         {
-            if (ProcessNameFilter(list) == null)
+            if (FoodDeliveryUtils.ProcessNameFilter(list) == null)
                 return null;
             return new List<Ingridients>(
                 list.Split(',', StringSplitOptions.RemoveEmptyEntries).ToList()

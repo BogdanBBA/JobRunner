@@ -47,6 +47,7 @@ C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\Microsoft.V
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\Newtonsoft.Json.dll
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\WebDriver.dll
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\CommonCode.pdb
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\CommonCode.dll.config
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\Jobs.pdb
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\Jobs.exe.config
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\EntityFramework.xml
@@ -65,4 +66,3 @@ C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.c
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csproj.CopyComplete
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.exe
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.pdb
-C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\CommonCode.dll.config
