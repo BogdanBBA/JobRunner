@@ -10,7 +10,9 @@ namespace WebAPIPublishInstaller
 {
     class Program
     {
-        private const bool SIMULATE_IIS_RESET = true;
+        private const bool SIMULATE_IIS_RESET = false;
+        private const bool SIMULATE_FILE_DELETE_COPY = false;
+        private const bool SIMULATE_OPEN_JOB_RUNNER_UI = false;
 
         private static void DoIISReset()
         {
@@ -26,6 +28,9 @@ namespace WebAPIPublishInstaller
 
         private static void DeleteFolderAndContents(DirectoryInfo directory)
         {
+            if (SIMULATE_FILE_DELETE_COPY)
+                return;
+
             Console.ForegroundColor = ConsoleColor.White;
             foreach (FileInfo file in directory.EnumerateFiles())
             {
@@ -42,6 +47,9 @@ namespace WebAPIPublishInstaller
 
         private static void CopyFiles(DirectoryInfo source, DirectoryInfo destination)
         {
+            if (SIMULATE_FILE_DELETE_COPY)
+                return;
+
             Console.ForegroundColor = ConsoleColor.White;
             List<FileInfo> files = source.EnumerateFiles().ToList();
             for (int index = 0; index < files.Count; index++)
@@ -63,6 +71,13 @@ namespace WebAPIPublishInstaller
                     Console.WriteLine("Exiting unsuccessfully...");
                     Thread.Sleep(5000);
                     return;
+                }
+
+                if (SIMULATE_IIS_RESET || SIMULATE_FILE_DELETE_COPY || SIMULATE_OPEN_JOB_RUNNER_UI)
+                {
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
+                    Console.WriteLine($"Warning: IIS reset, file delete/copy or UI app open is only simulated!{Environment.NewLine}Have you forgotten to change some debug values?");
+                    Thread.Sleep(3000);
                 }
 
                 string sourcePath = Path.GetFullPath(Environment.CurrentDirectory + @"\..\..\..\WebAPI\bin\Release\netcoreapp2.2\publish\");
@@ -95,6 +110,14 @@ namespace WebAPIPublishInstaller
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine($"{Environment.NewLine}Copying new data...");
                 CopyFiles(new DirectoryInfo(sourcePath), new DirectoryInfo(destinationPath));
+
+                string jobRunnerUIFolder = Path.GetFullPath(Environment.CurrentDirectory + @"\..\..\..\JobPoolUI\bin\Debug\");
+                string jobRunnerUIExe = Path.Combine(jobRunnerUIFolder, @"JobPoolUI.exe");
+
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine($"{Environment.NewLine}Starting the job runner...");
+                if (!SIMULATE_OPEN_JOB_RUNNER_UI)
+                    Process.Start(new ProcessStartInfo(jobRunnerUIExe) { WorkingDirectory = jobRunnerUIFolder });
 
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine($"{Environment.NewLine}Done!");

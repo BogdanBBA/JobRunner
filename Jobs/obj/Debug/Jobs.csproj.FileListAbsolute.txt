@@ -50,6 +50,7 @@ C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\Jobs\bin\Debug\ThoughtWorks.Sel
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\Jobs\bin\Debug\WebDriver.dll
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\Jobs\bin\Debug\WebDriver.Support.dll
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\Jobs\bin\Debug\CommonCode.pdb
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\Jobs\bin\Debug\CommonCode.dll.config
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\Jobs\bin\Debug\EntityFramework.xml
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\Jobs\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\Jobs\bin\Debug\Newtonsoft.Json.pdb
@@ -67,4 +68,3 @@ C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\Jobs\obj\Debug\Jobs.csproj.Core
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\Jobs\obj\Debug\Jobs.csproj.CopyComplete
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\Jobs\obj\Debug\Jobs.exe
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\Jobs\obj\Debug\Jobs.pdb
-C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\Jobs\bin\Debug\CommonCode.dll.config
