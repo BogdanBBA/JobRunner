@@ -1,4 +1,6 @@
-﻿namespace CommonCode.Utils
+﻿using System.Security.Principal;
+
+namespace CommonCode.Utils
 {
     public static class Utils
     {
@@ -26,6 +28,13 @@
             TYPE aux = objectA;
             objectA = objectB;
             objectB = aux;
+        }
+
+        public static bool IsAdministrator()
+        {
+            WindowsIdentity identity = WindowsIdentity.GetCurrent();
+            WindowsPrincipal principal = new WindowsPrincipal(identity);
+            return principal.IsInRole(WindowsBuiltInRole.Administrator);
         }
     }
 }

@@ -1,0 +1,14 @@
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPIPublishInstaller\bin\Debug\WebAPIPublishInstaller.exe.config
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPIPublishInstaller\bin\Debug\WebAPIPublishInstaller.exe
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPIPublishInstaller\bin\Debug\WebAPIPublishInstaller.pdb
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPIPublishInstaller\bin\Debug\CommonCode.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPIPublishInstaller\bin\Debug\System.Data.SQLite.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPIPublishInstaller\bin\Debug\CommonCode.pdb
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPIPublishInstaller\bin\Debug\CommonCode.dll.config
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPIPublishInstaller\bin\Debug\System.Data.SQLite.xml
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPIPublishInstaller\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPIPublishInstaller\obj\Debug\WebAPIPublishInstaller.csprojAssemblyReference.cache
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPIPublishInstaller\obj\Debug\WebAPIPublishInstaller.csproj.CoreCompileInputs.cache
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPIPublishInstaller\obj\Debug\WebAPIPublishInstaller.csproj.CopyComplete
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPIPublishInstaller\obj\Debug\WebAPIPublishInstaller.exe
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPIPublishInstaller\obj\Debug\WebAPIPublishInstaller.pdb
