@@ -39,7 +39,7 @@ namespace Jobs
                 .Append($"E-mail sent {DateTime.Now:dddd, d MMMM yyyy, HH:mm:ss}. Cheers.");
             if (errorLogCount24h > 0)
                 sb.Append(Environment.NewLine).Append(Environment.NewLine)
-                    .Append($"Oh, and by the way, there have been {Utils.Plural("job run log", errorLogCount24h, true)} with errors in the past 24 hours, ")
+                    .Append($"Oh, and by the way, there {Utils.Conjugation("has", "have", errorLogCount24h)} been {Utils.Plural("job run log", errorLogCount24h, true)} with errors in the past 24 hours, ")
                     .Append($"from a total of {Utils.Plural("run", totalLogs24h, true)}.");
             return ComposeBody(sb.ToString());
         }

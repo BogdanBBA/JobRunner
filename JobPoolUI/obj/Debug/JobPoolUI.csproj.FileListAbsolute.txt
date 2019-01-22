@@ -33,3 +33,38 @@ C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\Jo
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csproj.CopyComplete
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.exe
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.pdb
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\JobPoolUI.exe.config
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\JobPoolUI.exe
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\JobPoolUI.pdb
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\CommonCode.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\DataLayer.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\EntityFramework.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\Jobs.exe
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\WebDriver.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\CommonCode.pdb
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\DataLayer.pdb
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\DataLayer.dll.config
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\Jobs.pdb
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\Jobs.exe.config
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\EntityFramework.xml
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.xml
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\WebDriver.xml
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csprojAssemblyReference.cache
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.FMain.resources
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.Properties.Resources.resources
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.UI.JobView.resources
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csproj.GenerateResource.cache
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csproj.CoreCompileInputs.cache
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csproj.CopyComplete
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.exe
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.pdb

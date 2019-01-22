@@ -1,9 +1,13 @@
-﻿namespace WebAPI
+﻿using CommonCode;
+using System;
+
+namespace WebAPI
 {
     public class APIResult<TYPE>
     {
         public string ErrorMessage { get; private set; }
         public TYPE Result { get; private set; }
+        public DateTime Timestamp { get; private set; }
 
         public APIResult(TYPE result)
             : this(result, null)
@@ -14,9 +18,13 @@
         {
             Result = result;
             ErrorMessage = errorMessage;
+            Timestamp = DateTime.Now;
         }
 
+        public string ResultDataType
+            => typeof(TYPE).GetFriendlyName();
+
         public bool Success
-            => Result == null;
+            => Result != null;
     }
 }

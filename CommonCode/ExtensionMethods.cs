@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace CommonCode
@@ -48,6 +49,16 @@ namespace CommonCode
             if (sb.Length == 0)
                 sb.Append("0s");
             return sb.ToString();
+        }
+
+        public static bool ContainsAll<TYPE>(this IEnumerable<TYPE> list, IEnumerable<TYPE> other)
+        {
+            return !other.ToList().Except(list.ToList()).Any();
+        }
+
+        public static bool ContainsNone<TYPE>(this IEnumerable<TYPE> list, IEnumerable<TYPE> other)
+        {
+            return !list.ToList().Intersect(other.ToList()).Any();
         }
     }
 }

@@ -11,3 +11,20 @@ C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Release\net
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Release\netcoreapp2.2\WebAPI.RazorTargetAssemblyInfo.cache
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Release\netcoreapp2.2\WebAPI.dll
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Release\netcoreapp2.2\WebAPI.pdb
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\bin\Release\netcoreapp2.2\WebAPI.deps.json
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\bin\Release\netcoreapp2.2\WebAPI.runtimeconfig.json
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\bin\Release\netcoreapp2.2\WebAPI.runtimeconfig.dev.json
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\bin\Release\netcoreapp2.2\WebAPI.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\bin\Release\netcoreapp2.2\WebAPI.pdb
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\bin\Release\netcoreapp2.2\CommonCode.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\bin\Release\netcoreapp2.2\CommonCode.pdb
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\obj\Release\netcoreapp2.2\WebAPI.csprojAssemblyReference.cache
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\obj\Release\netcoreapp2.2\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\obj\Release\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cache
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\obj\Release\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cs
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\obj\Release\netcoreapp2.2\WebAPI.AssemblyInfoInputs.cache
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\obj\Release\netcoreapp2.2\WebAPI.AssemblyInfo.cs
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\obj\Release\netcoreapp2.2\WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\obj\Release\netcoreapp2.2\WebAPI.csproj.CopyComplete
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\obj\Release\netcoreapp2.2\WebAPI.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\obj\Release\netcoreapp2.2\WebAPI.pdb

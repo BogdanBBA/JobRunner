@@ -1,0 +1,6 @@
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Release\CommonCode.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Release\CommonCode.pdb
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\obj\Release\CommonCode.csprojAssemblyReference.cache
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\obj\Release\CommonCode.csproj.CoreCompileInputs.cache
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\obj\Release\CommonCode.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\obj\Release\CommonCode.pdb

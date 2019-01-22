@@ -17,3 +17,22 @@ C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\DataLayer\obj\Debug\Da
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\DataLayer\obj\Debug\DataLayer.dll
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\DataLayer\bin\Debug\DataLayer.dll.config
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\DataLayer\bin\Debug\CommonCode.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\DataLayer\bin\Debug\EntityFramework.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\DataLayer\bin\Debug\System.Data.SQLite.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\DataLayer\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\DataLayer\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\DataLayer\bin\Debug\CommonCode.pdb
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\DataLayer\bin\Debug\EntityFramework.xml
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\DataLayer\bin\Debug\System.Data.SQLite.xml
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\DataLayer\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\DataLayer\obj\Debug\DataLayer.csprojAssemblyReference.cache
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\DataLayer\obj\Debug\DataLayer.pdb
