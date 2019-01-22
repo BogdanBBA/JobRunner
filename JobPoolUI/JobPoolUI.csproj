@@ -119,10 +119,6 @@
       <Project>{963BA991-6300-418E-B496-EEFEC7D4F617}</Project>
       <Name>CommonCode</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DataLayer\DataLayer.csproj">
-      <Project>{02AD1ADD-F126-4026-BFBC-CE35DCD92B86}</Project>
-      <Name>DataLayer</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Jobs\Jobs.csproj">
       <Project>{2D5B562F-2DF7-4BDB-8272-F3DC143B13CA}</Project>
       <Name>Jobs</Name>

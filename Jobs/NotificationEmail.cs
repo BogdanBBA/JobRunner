@@ -1,4 +1,4 @@
-﻿using CommonCode;
+﻿using CommonCode.Utils;
 using Jobs.Anniversaries;
 using Jobs.WebstoreProducts.DTOs;
 using System;

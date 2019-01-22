@@ -1,8 +1,7 @@
-﻿using CommonCode;
+﻿using CommonCode.Utils;
 using JobPoolUI.Classes;
 using System;
 using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 
 namespace JobPoolUI.UI

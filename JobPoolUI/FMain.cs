@@ -1,5 +1,5 @@
-﻿using CommonCode;
-using DataLayer;
+﻿using CommonCode.DataLayer;
+using CommonCode.Utils;
 using JobPoolUI.Classes;
 using JobPoolUI.UI;
 using Jobs;

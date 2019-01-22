@@ -1,7 +1,6 @@
-﻿using DataLayer;
+﻿using CommonCode.DataLayer;
 using System;
 using System.Collections.Generic;
-using System.Data.SQLite;
 using System.Net.Mail;
 using System.Threading;
 

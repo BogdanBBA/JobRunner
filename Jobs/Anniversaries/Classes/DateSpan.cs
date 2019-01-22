@@ -1,4 +1,4 @@
-﻿using CommonCode;
+﻿using CommonCode.Utils;
 using System;
 
 namespace Jobs.Anniversaries.Classes

@@ -1,7 +1,6 @@
-﻿using CommonCode;
-using DataLayer;
+﻿using CommonCode.DataLayer;
+using CommonCode.Utils;
 using Jobs.OpenWeather.DTOs;
-using System;
 using System.Collections.Generic;
 using System.Data.SQLite;
 

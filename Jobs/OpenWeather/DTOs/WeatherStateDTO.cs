@@ -1,5 +1,5 @@
-﻿using CommonCode;
-using DataLayer;
+﻿using CommonCode.DataLayer;
+using CommonCode.Utils;
 using Jobs.OpenWeather.JsonDTOs;
 using System;
 using System.Collections.Generic;

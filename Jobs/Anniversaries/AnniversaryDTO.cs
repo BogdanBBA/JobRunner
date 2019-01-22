@@ -1,4 +1,4 @@
-﻿using CommonCode;
+﻿using CommonCode.Utils;
 using Jobs.Anniversaries.Classes;
 using System;
 using System.Collections.Generic;

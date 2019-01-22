@@ -1,5 +1,5 @@
-﻿using CommonCode;
-using DataLayer;
+﻿using CommonCode.DataLayer;
+using CommonCode.Utils;
 using Jobs.WebstoreProducts.DTOs;
 using Jobs.WebstoreProducts.Parsing;
 using System;

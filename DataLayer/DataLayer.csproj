@@ -60,12 +60,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseDL.cs" />
-    <Compile Include="BaseDTO.cs" />
-    <Compile Include="BaseJob.cs" />
-    <Compile Include="Const.cs" />
-    <Compile Include="JobRunErrorCodes.cs" />
-    <Compile Include="JobRunResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

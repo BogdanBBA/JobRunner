@@ -29,3 +29,7 @@ C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\bin\Debug\netcoreapp2.2\
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\bin\Debug\netcoreapp2.2\CommonCode.pdb
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csprojAssemblyReference.cache
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csproj.CopyComplete
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\bin\Debug\netcoreapp2.2\System.Data.SQLite.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\bin\Debug\netcoreapp2.2\CommonCode.dll.config
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\bin\Debug\netcoreapp2.2\System.Data.SQLite.xml
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\bin\Debug\netcoreapp2.2\System.Data.SQLite.dll.config

@@ -1,5 +1,5 @@
-﻿using CommonCode;
-using DataLayer;
+﻿using CommonCode.DataLayer;
+using CommonCode.Utils;
 using Jobs.GoogleFlights.DTOs;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;

@@ -6,7 +6,17 @@ C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\obj\Debug\C
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\obj\Debug\CommonCode.csprojAssemblyReference.cache
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Debug\CommonCode.dll
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Debug\CommonCode.pdb
-C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\obj\Debug\CommonCode.csprojAssemblyReference.cache
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\obj\Debug\CommonCode.csproj.CoreCompileInputs.cache
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\obj\Debug\CommonCode.dll
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\obj\Debug\CommonCode.pdb
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Debug\CommonCode.dll.config
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Debug\EntityFramework.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Debug\System.Data.SQLite.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Debug\EntityFramework.xml
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Debug\System.Data.SQLite.xml
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\obj\Debug\CommonCode.csproj.CopyComplete

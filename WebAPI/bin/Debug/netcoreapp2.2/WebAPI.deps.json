@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP2_2"
     ],
-    "languageVersion": "",
+    "languageVersion": "7.3",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -208,11 +208,22 @@
         }
       },
       "CommonCode/1.0.0": {
+        "dependencies": {
+          "System.Data.SQLite": "1.0.109.0"
+        },
         "runtime": {
           "CommonCode.dll": {}
         },
         "compile": {
           "CommonCode.dll": {}
+        }
+      },
+      "System.Data.SQLite.Reference/1.0.109.0": {
+        "runtime": {
+          "System.Data.SQLite.dll": {
+            "assemblyVersion": "1.0.109.0",
+            "fileVersion": "1.0.109.0"
+          }
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3287,6 +3298,11 @@
     },
     "CommonCode/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Data.SQLite.Reference/1.0.109.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },

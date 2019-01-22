@@ -1,5 +1,5 @@
-﻿using CommonCode;
-using DataLayer;
+﻿using CommonCode.DataLayer;
+using CommonCode.Utils;
 using Jobs.OpenWeather.DTOs;
 using Jobs.OpenWeather.JsonDTOs;
 using Newtonsoft.Json;
