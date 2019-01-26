@@ -46,7 +46,7 @@ namespace CommonCode.DataLayer
         static Const()
         {
             FOLDER_SOLUTION_ROOT = Path.GetFullPath(Directory.GetCurrentDirectory() + @"\..\..\..\");
-            using (RegistryKey appKey = Registry.CurrentUser.CreateSubKey(REGISTRY_PATH))
+            using (RegistryKey appKey = Registry.CurrentUser.OpenSubKey(REGISTRY_PATH, false))
             {
                 FOLDER_SOLUTION_ROOT = appKey.GetValue(REGISTRY_KEY_NAME) as string;
             }
