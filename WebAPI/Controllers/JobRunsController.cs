@@ -11,11 +11,25 @@ namespace WebAPI.Controllers
     {
         [Route("last-24-hours")]
         [HttpGet]
-        public APIResult<List<RunDTO>> ListRestaurants()
+        public APIResult<List<RunDTO>> Last24h()
         {
             try
             {
-                return new APIResult<List<RunDTO>>(DLs.JobLogging.SelectLast24HLogs());
+                return new APIResult<List<RunDTO>>(DLs.JobLogging.SelectLast24hLogs());
+            }
+            catch (Exception e)
+            {
+                return new APIResult<List<RunDTO>>(null, e.ToString());
+            }
+        }
+
+        [Route("last-24-hours-errors")]
+        [HttpGet]
+        public APIResult<List<RunDTO>> Last24hErrors()
+        {
+            try
+            {
+                return new APIResult<List<RunDTO>>(DLs.JobLogging.SelectLast24hErrorLogs());
             }
             catch (Exception e)
             {

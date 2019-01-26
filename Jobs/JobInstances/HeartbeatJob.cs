@@ -30,8 +30,8 @@ namespace Jobs.Heartbeat
         protected override void InternalRun(Action<bool, string> log, object input, ref int resultCode, ref string errorDescription)
         {
             log(true, "Determining error logs from the past 24 hours...");
-            int totalLogs = jlDL.SelectLast24HLogCount();
-            int errorLogCount = jlDL.SelectLast24HErrorLogCount();
+            int totalLogs = jlDL.SelectLast24hLogCount();
+            int errorLogCount = jlDL.SelectLast24hErrorLogCount();
 
             log(true, "Sending heartbeat e-mail...");
             NotificationEmail.Send(

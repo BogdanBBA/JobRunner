@@ -30,7 +30,7 @@ namespace Jobs.JobLogging.DTOs
                 JobID = reader.GetInt64(0),
                 Moment = reader.GetDateTime(1),
                 ResultCode = reader.GetInt64(2),
-                ErrorDescription = reader.GetString(3)
+                ErrorDescription = reader[3].GetType() == typeof(DBNull) ? null : reader.GetString(3)
             };
         }
 

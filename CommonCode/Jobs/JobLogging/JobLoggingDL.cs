@@ -21,19 +21,22 @@ namespace Jobs.JobLogging
             AddTable(JobLoggingTables.Runs, "JobID INTEGER, Moment DATETIME, ResultCode INTEGER, ErrorDescription TEXT", "JobID, Moment, ResultCode, ErrorDescription");
         }
 
-        private string Last24HoursQuery
+        private string Last24hLogs_WhereContents
             => "DATETIME('now', '-1 day') < Moment";
 
-        private string ErrorLogsInLast24HWhereContents
-            => $"{Last24HoursQuery} AND ResultCode != 0 AND ResultCode != 1";
+        private string Last24hErrorLogs_WhereContents
+            => $"{Last24hLogs_WhereContents} AND ResultCode != 0 AND ResultCode != 1";
 
-        public int SelectLast24HErrorLogCount()
-            => (int)(long)ExecuteSQLScalar($"SELECT COUNT(*) FROM {Tables[JobLoggingTables.Runs].Name} WHERE {ErrorLogsInLast24HWhereContents}"); 
+        public int SelectLast24hLogCount()
+            => (int)(long)ExecuteSQLScalar($"SELECT COUNT(*) FROM {Tables[JobLoggingTables.Runs].Name} WHERE {Last24hLogs_WhereContents}");
 
-        public int SelectLast24HLogCount()
-            => (int)(long)ExecuteSQLScalar($"SELECT COUNT(*) FROM {Tables[JobLoggingTables.Runs].Name} WHERE {Last24HoursQuery}");
+        public int SelectLast24hErrorLogCount()
+            => (int)(long)ExecuteSQLScalar($"SELECT COUNT(*) FROM {Tables[JobLoggingTables.Runs].Name} WHERE {Last24hErrorLogs_WhereContents}");
 
-        public List<RunDTO> SelectLast24HLogs()
-            => RunDTO.ParseList(ExecuteSQLReader($"SELECT {Tables[JobLoggingTables.Runs].ColumnList} FROM {Tables[JobLoggingTables.Runs].Name} WHERE {Last24HoursQuery} ORDER BY Moment DESC"));
+        public List<RunDTO> SelectLast24hLogs()
+            => RunDTO.ParseList(ExecuteSQLReader($"SELECT {Tables[JobLoggingTables.Runs].ColumnList} FROM {Tables[JobLoggingTables.Runs].Name} WHERE {Last24hLogs_WhereContents} ORDER BY Moment DESC"));
+
+        public List<RunDTO> SelectLast24hErrorLogs()
+            => RunDTO.ParseList(ExecuteSQLReader($"SELECT {Tables[JobLoggingTables.Runs].ColumnList} FROM {Tables[JobLoggingTables.Runs].Name} WHERE {Last24hErrorLogs_WhereContents} ORDER BY Moment DESC"));
     }
 }
