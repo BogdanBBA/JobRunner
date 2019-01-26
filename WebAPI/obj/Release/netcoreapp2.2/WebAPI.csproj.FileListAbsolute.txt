@@ -32,3 +32,9 @@ C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\bin\Release\netcoreapp2.
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\bin\Release\netcoreapp2.2\CommonCode.dll.config
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\bin\Release\netcoreapp2.2\System.Data.SQLite.xml
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPI\bin\Release\netcoreapp2.2\System.Data.SQLite.dll.config
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Release\netcoreapp2.2\WebAPI.csprojAssemblyReference.cache
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\bin\Release\netcoreapp2.2\CommonCode.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\bin\Release\netcoreapp2.2\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\bin\Release\netcoreapp2.2\CommonCode.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\bin\Release\netcoreapp2.2\CommonCode.dll.config
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Release\netcoreapp2.2\WebAPI.csproj.CopyComplete

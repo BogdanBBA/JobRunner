@@ -16,7 +16,7 @@
     </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x64</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -25,6 +25,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <LangVersion>7.3</LangVersion>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -79,38 +80,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Anniversaries\AnniversariesDL.cs" />
-    <Compile Include="Anniversaries\AnniversariesJob.cs" />
-    <Compile Include="Anniversaries\AnniversaryDTO.cs" />
-    <Compile Include="Anniversaries\Classes\AnniversaryManager.cs" />
-    <Compile Include="Anniversaries\Classes\AnniversaryMemberDescription.cs" />
-    <Compile Include="Anniversaries\Classes\DateSpan.cs" />
-    <Compile Include="DiskSpace\DiskSpaceDL.cs" />
-    <Compile Include="DiskSpace\DiskSpaceJob.cs" />
-    <Compile Include="DiskSpace\DiskSpaceRecordingDTO.cs" />
-    <Compile Include="GoogleFlights\DTOs\PriceDTO.cs" />
-    <Compile Include="GoogleFlights\DTOs\RouteDTO.cs" />
-    <Compile Include="GoogleFlights\GoogleFlightsDL.cs" />
-    <Compile Include="GoogleFlights\GoogleFlightsJob.cs" />
-    <Compile Include="Heartbeat\HeartbeatDL.cs" />
-    <Compile Include="Heartbeat\DateDTO.cs" />
-    <Compile Include="Heartbeat\HeartbeatJob.cs" />
     <Compile Include="JobFactory.cs" />
-    <Compile Include="JobLoggingDL.cs" />
+    <Compile Include="JobInstances\AnniversariesJob.cs" />
+    <Compile Include="JobInstances\DiskSpaceJob.cs" />
+    <Compile Include="JobInstances\GoogleFlightsJob.cs" />
+    <Compile Include="JobInstances\HeartbeatJob.cs" />
+    <Compile Include="JobInstances\OpenWeatherJob.cs" />
+    <Compile Include="JobInstances\WebstoreProductsJob.cs" />
     <Compile Include="NotificationEmail.cs" />
-    <Compile Include="OpenWeather\DTOs\CityDTO.cs" />
-    <Compile Include="OpenWeather\DTOs\WeatherStateDTO.cs" />
-    <Compile Include="OpenWeather\JsonDTOs\CityResult.cs" />
-    <Compile Include="OpenWeather\JsonDTOs\Clouds.cs" />
-    <Compile Include="OpenWeather\JsonDTOs\Coord.cs" />
-    <Compile Include="OpenWeather\JsonDTOs\MainWeatherData.cs" />
-    <Compile Include="OpenWeather\JsonDTOs\OWMQueryResult.cs" />
-    <Compile Include="OpenWeather\JsonDTOs\Sys.cs" />
-    <Compile Include="OpenWeather\JsonDTOs\Weather.cs" />
-    <Compile Include="OpenWeather\JsonDTOs\Wind.cs" />
-    <Compile Include="OpenWeather\OpenWeatherDL.cs" />
-    <Compile Include="OpenWeather\OpenWeatherJob.cs" />
-    <Compile Include="OpenWeather\OWM.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -118,20 +95,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Tests\AnniversaryTests.cs" />
-    <Compile Include="Tests\DateSpanTests.cs" />
-    <Compile Include="WebstoreProducts\DTOs\Last2ProductPricesDTO.cs" />
-    <Compile Include="WebstoreProducts\DTOs\PriceDTO.cs" />
-    <Compile Include="WebstoreProducts\DTOs\ProductDTO.cs" />
-    <Compile Include="WebstoreProducts\Parsing\Parser.cs" />
-    <Compile Include="WebstoreProducts\Parsing\ParserFactory.cs" />
-    <Compile Include="WebstoreProducts\Parsing\Parsers\EMag.cs" />
-    <Compile Include="WebstoreProducts\Parsing\Parsers\Jysk.cs" />
-    <Compile Include="WebstoreProducts\Parsing\Parsers\MediaGalaxy.cs" />
-    <Compile Include="WebstoreProducts\Parsing\Parsers\MicrosoftStore.cs" />
-    <Compile Include="WebstoreProducts\Parsing\Parsers\PcGarage.cs" />
-    <Compile Include="WebstoreProducts\WebstoreProductsDL.cs" />
-    <Compile Include="WebstoreProducts\WebstoreProductsJob.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

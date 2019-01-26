@@ -12,7 +12,8 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/food-delivery/filter-food/restaurant-name=*&food-name=*&worst-food-source=3&must-have=*&must-not-have=*",
+      "launchUrl": "api/job-runs/last-24-hours",
+      // api/food-delivery/filter-food/restaurant-name=*&food-name=*&worst-food-source=3&must-have=*&must-not-have=*
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
