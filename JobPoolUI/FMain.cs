@@ -3,11 +3,13 @@ using CommonCode.Utils;
 using JobPoolUI.Classes;
 using JobPoolUI.UI;
 using Jobs;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Windows.Forms;
@@ -28,6 +30,11 @@ namespace JobPoolUI
         {
             InitializeComponent();
             InitializeJobControls();
+
+            using (RegistryKey appKey = Registry.CurrentUser.CreateSubKey(Const.REGISTRY_PATH))
+            {
+                appKey.SetValue(Const.REGISTRY_KEY_NAME, Path.GetFullPath(Directory.GetCurrentDirectory() + @"\..\..\..\"));
+            }
         }
 
         private void FMain_Load(object sender, EventArgs e)
@@ -77,7 +84,7 @@ namespace JobPoolUI
         {
             Process proc = Process.Start(new ProcessStartInfo(Const.FILE_JOBS_EXE)
             {
-                WorkingDirectory = Const.FOLDER_BIN,
+                WorkingDirectory = Const.FOLDER_JOBS_BIN,
                 Arguments = $"{job.JobID}"
             });
             proc.WaitForExit();

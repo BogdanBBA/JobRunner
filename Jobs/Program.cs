@@ -1,4 +1,5 @@
 ﻿using CommonCode.DataLayer;
+using Jobs.JobLogging;
 using System;
 using System.Collections.Generic;
 using System.Net.Mail;
@@ -13,9 +14,9 @@ namespace Jobs
         const int DISPLAY_TIME_ERROR = 15000;
 
         enum LogLevel { Big, Medium, Small };
-        static Dictionary<LogLevel, string> _prefixes = new Dictionary<LogLevel, string>()
+        static readonly Dictionary<LogLevel, string> _prefixes = new Dictionary<LogLevel, string>()
             { { LogLevel.Big, $"{Environment.NewLine} ### " }, { LogLevel.Medium, " * " }, { LogLevel.Small, " - " } };
-        static Dictionary<LogLevel, string> _suffixes = new Dictionary<LogLevel, string>()
+        static readonly Dictionary<LogLevel, string> _suffixes = new Dictionary<LogLevel, string>()
             { { LogLevel.Big, $"{Environment.NewLine}" }, { LogLevel.Medium, "" }, { LogLevel.Small, "" } };
 
         static void Log(LogLevel level, string log, ConsoleColor consoleColor = ConsoleColor.White)

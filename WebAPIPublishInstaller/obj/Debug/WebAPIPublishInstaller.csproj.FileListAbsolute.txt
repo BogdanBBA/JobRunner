@@ -12,3 +12,21 @@ C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPIPublishInstaller\obj\Debu
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPIPublishInstaller\obj\Debug\WebAPIPublishInstaller.csproj.CopyComplete
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPIPublishInstaller\obj\Debug\WebAPIPublishInstaller.exe
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\WebAPIPublishInstaller\obj\Debug\WebAPIPublishInstaller.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPIPublishInstaller\bin\Debug\WebAPIPublishInstaller.exe.config
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPIPublishInstaller\bin\Debug\WebAPIPublishInstaller.exe
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPIPublishInstaller\bin\Debug\WebAPIPublishInstaller.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPIPublishInstaller\bin\Debug\CommonCode.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPIPublishInstaller\bin\Debug\System.Data.SQLite.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPIPublishInstaller\bin\Debug\CommonCode.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPIPublishInstaller\bin\Debug\CommonCode.dll.config
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPIPublishInstaller\bin\Debug\System.Data.SQLite.xml
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPIPublishInstaller\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPIPublishInstaller\obj\Debug\WebAPIPublishInstaller.csprojAssemblyReference.cache
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPIPublishInstaller\obj\Debug\WebAPIPublishInstaller.csproj.CoreCompileInputs.cache
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPIPublishInstaller\obj\Debug\WebAPIPublishInstaller.csproj.CopyComplete
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPIPublishInstaller\obj\Debug\WebAPIPublishInstaller.exe
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPIPublishInstaller\obj\Debug\WebAPIPublishInstaller.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPIPublishInstaller\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPIPublishInstaller\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPIPublishInstaller\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPIPublishInstaller\bin\Debug\Newtonsoft.Json.xml

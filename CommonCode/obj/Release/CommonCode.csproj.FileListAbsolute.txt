@@ -15,3 +15,24 @@ C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Release\EntityFr
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Release\System.Data.SQLite.xml
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\bin\Release\System.Data.SQLite.dll.config
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\CommonCode\obj\Release\CommonCode.csproj.CopyComplete
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Release\CommonCode.dll.config
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Release\CommonCode.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Release\CommonCode.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Release\EntityFramework.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Release\System.Data.SQLite.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Release\System.Data.SQLite.EF6.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Release\EntityFramework.xml
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Release\System.Data.SQLite.xml
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Release\System.Data.SQLite.dll.config
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\obj\Release\CommonCode.csprojAssemblyReference.cache
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\obj\Release\CommonCode.csproj.CoreCompileInputs.cache
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\obj\Release\CommonCode.csproj.CopyComplete
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\obj\Release\CommonCode.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\obj\Release\CommonCode.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Release\Newtonsoft.Json.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Release\Newtonsoft.Json.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Release\Newtonsoft.Json.xml

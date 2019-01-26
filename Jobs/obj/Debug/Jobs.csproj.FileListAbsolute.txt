@@ -1,39 +1,3 @@
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\Jobs.exe.config
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\Jobs.exe
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\Jobs.pdb
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\CommonCode.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\DataLayer.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\EntityFramework.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\Selenium.WebDriverBackedSelenium.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\System.Data.SQLite.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\System.Data.SQLite.EF6.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\System.Data.SQLite.Linq.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\ThoughtWorks.Selenium.Core.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\WebDriver.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\WebDriver.Support.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\CommonCode.pdb
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\DataLayer.pdb
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\DataLayer.dll.config
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\EntityFramework.xml
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\Newtonsoft.Json.pdb
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\Selenium.WebDriverBackedSelenium.xml
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\System.Data.SQLite.xml
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\System.Data.SQLite.dll.config
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\ThoughtWorks.Selenium.Core.xml
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\WebDriver.xml
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\WebDriver.Support.xml
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.csprojAssemblyReference.cache
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.Properties.Resources.resources
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.csproj.GenerateResource.cache
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.csproj.CoreCompileInputs.cache
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.csproj.CopyComplete
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.exe
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.pdb
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\Jobs\bin\Debug\Jobs.exe.config
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\Jobs\bin\Debug\Jobs.exe
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\Jobs\bin\Debug\Jobs.pdb
@@ -68,3 +32,37 @@ C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\Jobs\obj\Debug\Jobs.csproj.Core
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\Jobs\obj\Debug\Jobs.csproj.CopyComplete
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\Jobs\obj\Debug\Jobs.exe
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\Jobs\obj\Debug\Jobs.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\Jobs.exe.config
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\Jobs.exe
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\Jobs.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\CommonCode.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\EntityFramework.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\System.Data.SQLite.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\WebDriver.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\WebDriver.Support.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\CommonCode.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\CommonCode.dll.config
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\EntityFramework.xml
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\System.Data.SQLite.xml
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\ThoughtWorks.Selenium.Core.xml
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\WebDriver.xml
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\bin\Debug\WebDriver.Support.xml
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.csprojAssemblyReference.cache
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.Properties.Resources.resources
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.csproj.GenerateResource.cache
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.csproj.CoreCompileInputs.cache
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.csproj.CopyComplete
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.exe
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.pdb

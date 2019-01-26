@@ -1,11 +1,15 @@
-﻿using System.IO;
+﻿using Microsoft.Win32;
+using System.IO;
 
 namespace CommonCode.DataLayer
 {
     public class Const
     {
-        public static readonly string FOLDER_ROOT;
-        public static readonly string FOLDER_BIN;
+        public const string REGISTRY_PATH = @"JobRunner";
+        public const string REGISTRY_KEY_NAME = "JobRunnerSolutionRootFolder";
+
+        public static readonly string FOLDER_SOLUTION_ROOT;
+        public static readonly string FOLDER_JOBS_BIN;
         public static readonly string FOLDER_PROGRAM_FILES;
         public static readonly string FOLDER_DATABASES;
         public static readonly string FOLDER_JOBS_IMAGE_RESOURCES;
@@ -41,14 +45,19 @@ namespace CommonCode.DataLayer
 
         static Const()
         {
-            FOLDER_ROOT = Path.GetFullPath(Directory.GetCurrentDirectory() + @"\..\..\..\");
-            FOLDER_BIN = Directory.GetCurrentDirectory() + @"\";
-            FOLDER_PROGRAM_FILES = FOLDER_ROOT + @"program-files\";
+            FOLDER_SOLUTION_ROOT = Path.GetFullPath(Directory.GetCurrentDirectory() + @"\..\..\..\");
+            using (RegistryKey appKey = Registry.CurrentUser.CreateSubKey(REGISTRY_PATH))
+            {
+                FOLDER_SOLUTION_ROOT = appKey.GetValue(REGISTRY_KEY_NAME) as string;
+            }
+
+            FOLDER_JOBS_BIN = FOLDER_SOLUTION_ROOT + @"Jobs\bin\Debug\";
+            FOLDER_PROGRAM_FILES = FOLDER_SOLUTION_ROOT + @"program-files\";
             FOLDER_DATABASES = FOLDER_PROGRAM_FILES + @"databases\";
-            FOLDER_JOBS_IMAGE_RESOURCES = FOLDER_ROOT + @"Jobs\Properties\Images\";
+            FOLDER_JOBS_IMAGE_RESOURCES = FOLDER_SOLUTION_ROOT + @"Jobs\Properties\Images\";
             FOLDER_WEBSTORE_PRODUCT_THUMBNAILS = FOLDER_DATABASES + @"webstore-product-thumbnails\";
 
-            FILE_JOBS_EXE = FOLDER_BIN + @"Jobs.exe";
+            FILE_JOBS_EXE = FOLDER_JOBS_BIN + @"Jobs.exe";
             FILE_TEMP_HTML = FOLDER_PROGRAM_FILES + @"temp.html";
             FILE_TEMP_JSON = FOLDER_PROGRAM_FILES + @"temp.json";
             FILE_TEMP_XML = FOLDER_PROGRAM_FILES + @"temp.xml";

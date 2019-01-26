@@ -1,38 +1,3 @@
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\JobPoolUI.exe.config
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\JobPoolUI.exe
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\JobPoolUI.pdb
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\CommonCode.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\DataLayer.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\EntityFramework.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\Jobs.exe
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.EF6.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.Linq.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\WebDriver.dll
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\CommonCode.pdb
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\DataLayer.pdb
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\DataLayer.dll.config
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\Jobs.pdb
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\Jobs.exe.config
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\EntityFramework.xml
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.xml
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.dll.config
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\Newtonsoft.Json.pdb
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\WebDriver.xml
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csprojAssemblyReference.cache
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.FMain.resources
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.Properties.Resources.resources
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.UI.JobView.resources
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csproj.GenerateResource.cache
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csproj.CoreCompileInputs.cache
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csproj.CopyComplete
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.exe
-C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.pdb
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\JobPoolUI.exe.config
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\JobPoolUI.exe
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\bin\Debug\JobPoolUI.pdb
@@ -66,3 +31,36 @@ C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.c
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csproj.CopyComplete
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.exe
 C:\Users\bblanita\Downloads\bba\GitHub\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\JobPoolUI.exe.config
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\JobPoolUI.exe
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\JobPoolUI.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\CommonCode.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\EntityFramework.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\Jobs.exe
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\WebDriver.dll
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\CommonCode.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\CommonCode.dll.config
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\Jobs.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\Jobs.exe.config
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\EntityFramework.xml
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.xml
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\bin\Debug\WebDriver.xml
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csprojAssemblyReference.cache
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.FMain.resources
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.Properties.Resources.resources
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.UI.JobView.resources
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csproj.GenerateResource.cache
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csproj.CoreCompileInputs.cache
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csproj.CopyComplete
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.exe
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.pdb
