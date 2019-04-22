@@ -9,7 +9,7 @@ namespace Jobs.Anniversaries
     public class AnniversaryDTO
     {
         /// <summary>Defines the possible types of anniversaries.</summary>
-        public enum Categories { MetSomeone = 0, Birthday = 1, FirstTimeDidSomething = 2, Romantic = 3 };
+        public enum Categories { MetSomeone = 0, Birthday = 1, FirstTimeDidSomething = 2, Romantic = 3, Commemoration = 4 };
         /// <summary>Defines the possible anniversary celebration frequencies.</summary>
         public enum CelebrationFrequencies { OnlyOnce = 0, Daily = 1, Weekly = 2, Monthly = 3, Yearly = 4 };
 
