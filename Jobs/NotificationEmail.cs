@@ -32,7 +32,7 @@ namespace Jobs
             return sb.ToString();
         }
 
-        public static string ComposeBody_Heartbeat(int jobID, int totalLogs24h, int errorLogCount24h)
+        public static string ComposeBody_Heartbeat(int jobID, int totalLogs24h, int errorLogCount24h, string externalIP)
         {
             StringBuilder sb = new StringBuilder()
                 .Append("Just to let you know - the jobs are alive and running.").Append(Environment.NewLine)
@@ -41,6 +41,7 @@ namespace Jobs
                 sb.Append(Environment.NewLine).Append(Environment.NewLine)
                     .Append($"Oh, and by the way, there {Utils.Conjugation("has", "have", errorLogCount24h)} been {Utils.Plural("job run log", errorLogCount24h, true)} with errors in the past 24 hours, ")
                     .Append($"from a total of {Utils.Plural("run", totalLogs24h, true)}.");
+            sb.Append(Environment.NewLine).Append(Environment.NewLine).Append("Current external IP address: ").Append(externalIP);
             return ComposeBody(sb.ToString());
         }
 

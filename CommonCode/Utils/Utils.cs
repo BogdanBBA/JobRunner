@@ -1,4 +1,5 @@
-﻿using System.Security.Principal;
+﻿using System;
+using System.Security.Principal;
 
 namespace CommonCode.Utils
 {
@@ -35,6 +36,24 @@ namespace CommonCode.Utils
             WindowsIdentity identity = WindowsIdentity.GetCurrent();
             WindowsPrincipal principal = new WindowsPrincipal(identity);
             return principal.IsInRole(WindowsBuiltInRole.Administrator);
+        }
+
+        /// <summary>Attempts to parse https://ipinfo.io/ip and returns the IP as a string if successful, or a message otherwise.</summary>
+        public static string GetExternalIp(bool includeErrorDescription = false)
+        {
+            try
+            {
+                using (System.Net.WebClient webClient = new System.Net.WebClient())
+                {
+                    webClient.DownloadFile(@"https://ipinfo.io/ip", DataLayer.Const.FILE_TEMP_HTML);
+                    string stringIpResult = System.IO.File.ReadAllText(DataLayer.Const.FILE_TEMP_HTML).Replace(Environment.NewLine, "").Replace("\n", "");
+                    return stringIpResult;
+                }
+            }
+            catch (Exception e)
+            {
+                return $"A {e?.GetType()?.Name} error has occured while attempting to obtain the external IP address{(includeErrorDescription ? $" ({e})" : "")}.";
+            }
         }
     }
 }
