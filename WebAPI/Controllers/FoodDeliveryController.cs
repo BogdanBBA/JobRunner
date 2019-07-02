@@ -28,7 +28,7 @@ namespace WebAPI.Controllers
         [HttpGet]
         public APIResult<Dictionary<int, string>> ListRestaurants()
 		{
-			DLs.Setup();
+			DLs.InitializeConstsAsWebAPI();
 			try
             {
                 Dictionary<int, string> result = new Dictionary<int, string>();
@@ -46,7 +46,7 @@ namespace WebAPI.Controllers
         [HttpGet]
         public APIResult<Dictionary<int, string>> ListIngridients()
 		{
-			DLs.Setup();
+			DLs.InitializeConstsAsWebAPI();
 			try
             {
                 Dictionary<int, string> result = new Dictionary<int, string>();
@@ -64,7 +64,7 @@ namespace WebAPI.Controllers
         [HttpGet]
         public APIResult<Dictionary<int, string>> ListFoodSources()
 		{
-			DLs.Setup();
+			DLs.InitializeConstsAsWebAPI();
 			try
             {
                 Dictionary<int, string> result = new Dictionary<int, string>();
@@ -82,7 +82,7 @@ namespace WebAPI.Controllers
         [HttpGet]
         public APIResult<List<Food>> FilterFood(string restaurantName, string foodName, int worstFoodSourceValue, string mustHaveList, string mustNotHaveList)
 		{
-			DLs.Setup();
+			DLs.InitializeConstsAsWebAPI();
 			try
             {
                 FoodSource foodSource = (FoodSource)worstFoodSourceValue;

@@ -1,0 +1,1 @@
+ERROR: The application is not running from where it's supposed to (Expected FOLDER_JOBS_BIN='C:\BBA\JobRunner\WebAPI\bin\Release\netcoreapp2.2\publish\', actual Environment.CurrentDirectory='C:\BBA\JobRunner\WebAPI').
