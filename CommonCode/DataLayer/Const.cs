@@ -1,5 +1,4 @@
-﻿using Microsoft.Win32;
-using System;
+﻿using System;
 using System.IO;
 
 namespace CommonCode.DataLayer
@@ -52,7 +51,7 @@ namespace CommonCode.DataLayer
 			//	FOLDER_SOLUTION_ROOT = appKey.GetValue(REGISTRY_KEY_NAME) as string;
 			//}
 
-			FOLDER_SOLUTION_ROOT = @"C:\WebAPI\";
+			FOLDER_SOLUTION_ROOT = @"C:\BBA\JobRunner\";
 			FOLDER_JOBS_BIN = FOLDER_SOLUTION_ROOT + @"Jobs\bin\Debug\";
 
 			if (!FOLDER_JOBS_BIN.Equals(Environment.CurrentDirectory))

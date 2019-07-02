@@ -13097,11 +13097,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Duedie Xyz\\Documents\\Z. Programming\\C#\\JobRunner\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\BBA\\JobRunner\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\Duedie Xyz\\Documents\\Z. Programming\\C#\\JobRunner\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\BBA\\JobRunner\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\Duedie Xyz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Duedie Xyz\\Documents\\Z. Programming\\C#\\JobRunner\\WebAPI\\obj\\",
+      "outputPath": "C:\\BBA\\JobRunner\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -13122,8 +13122,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Duedie Xyz\\Documents\\Z. Programming\\C#\\JobRunner\\CommonCode\\CommonCode.csproj": {
-              "projectPath": "C:\\Users\\Duedie Xyz\\Documents\\Z. Programming\\C#\\JobRunner\\CommonCode\\CommonCode.csproj"
+            "C:\\BBA\\JobRunner\\CommonCode\\CommonCode.csproj": {
+              "projectPath": "C:\\BBA\\JobRunner\\CommonCode\\CommonCode.csproj"
             }
           }
         }

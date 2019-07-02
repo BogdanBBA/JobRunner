@@ -66,3 +66,37 @@ C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.cs
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.csproj.CopyComplete
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.exe
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\Jobs\obj\Debug\Jobs.pdb
+C:\BBA\JobRunner\Jobs\bin\Debug\Jobs.exe.config
+C:\BBA\JobRunner\Jobs\bin\Debug\Jobs.exe
+C:\BBA\JobRunner\Jobs\bin\Debug\Jobs.pdb
+C:\BBA\JobRunner\Jobs\bin\Debug\CommonCode.dll
+C:\BBA\JobRunner\Jobs\bin\Debug\EntityFramework.dll
+C:\BBA\JobRunner\Jobs\bin\Debug\EntityFramework.SqlServer.dll
+C:\BBA\JobRunner\Jobs\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\BBA\JobRunner\Jobs\bin\Debug\Newtonsoft.Json.dll
+C:\BBA\JobRunner\Jobs\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+C:\BBA\JobRunner\Jobs\bin\Debug\System.Data.SQLite.dll
+C:\BBA\JobRunner\Jobs\bin\Debug\System.Data.SQLite.EF6.dll
+C:\BBA\JobRunner\Jobs\bin\Debug\System.Data.SQLite.Linq.dll
+C:\BBA\JobRunner\Jobs\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\BBA\JobRunner\Jobs\bin\Debug\WebDriver.dll
+C:\BBA\JobRunner\Jobs\bin\Debug\WebDriver.Support.dll
+C:\BBA\JobRunner\Jobs\bin\Debug\CommonCode.pdb
+C:\BBA\JobRunner\Jobs\bin\Debug\CommonCode.dll.config
+C:\BBA\JobRunner\Jobs\bin\Debug\EntityFramework.xml
+C:\BBA\JobRunner\Jobs\bin\Debug\EntityFramework.SqlServer.xml
+C:\BBA\JobRunner\Jobs\bin\Debug\Newtonsoft.Json.pdb
+C:\BBA\JobRunner\Jobs\bin\Debug\Newtonsoft.Json.xml
+C:\BBA\JobRunner\Jobs\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\BBA\JobRunner\Jobs\bin\Debug\System.Data.SQLite.xml
+C:\BBA\JobRunner\Jobs\bin\Debug\System.Data.SQLite.dll.config
+C:\BBA\JobRunner\Jobs\bin\Debug\ThoughtWorks.Selenium.Core.xml
+C:\BBA\JobRunner\Jobs\bin\Debug\WebDriver.xml
+C:\BBA\JobRunner\Jobs\bin\Debug\WebDriver.Support.xml
+C:\BBA\JobRunner\Jobs\obj\Debug\Jobs.csprojAssemblyReference.cache
+C:\BBA\JobRunner\Jobs\obj\Debug\Jobs.Properties.Resources.resources
+C:\BBA\JobRunner\Jobs\obj\Debug\Jobs.csproj.GenerateResource.cache
+C:\BBA\JobRunner\Jobs\obj\Debug\Jobs.csproj.CoreCompileInputs.cache
+C:\BBA\JobRunner\Jobs\obj\Debug\Jobs.csproj.CopyComplete
+C:\BBA\JobRunner\Jobs\obj\Debug\Jobs.exe
+C:\BBA\JobRunner\Jobs\obj\Debug\Jobs.pdb

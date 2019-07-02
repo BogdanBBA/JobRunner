@@ -64,3 +64,36 @@ C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\Jo
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csproj.CopyComplete
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.exe
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.pdb
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\JobPoolUI.exe.config
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\JobPoolUI.exe
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\JobPoolUI.pdb
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\CommonCode.dll
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\EntityFramework.dll
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\Jobs.exe
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.dll
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.EF6.dll
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.Linq.dll
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\Newtonsoft.Json.dll
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\WebDriver.dll
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\CommonCode.pdb
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\CommonCode.dll.config
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\Jobs.pdb
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\Jobs.exe.config
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\EntityFramework.xml
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.xml
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\System.Data.SQLite.dll.config
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\Newtonsoft.Json.pdb
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\Newtonsoft.Json.xml
+C:\BBA\JobRunner\JobPoolUI\bin\Debug\WebDriver.xml
+C:\BBA\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csprojAssemblyReference.cache
+C:\BBA\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.FMain.resources
+C:\BBA\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.Properties.Resources.resources
+C:\BBA\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.UI.JobView.resources
+C:\BBA\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csproj.GenerateResource.cache
+C:\BBA\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csproj.CoreCompileInputs.cache
+C:\BBA\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.csproj.CopyComplete
+C:\BBA\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.exe
+C:\BBA\JobRunner\JobPoolUI\obj\Debug\JobPoolUI.pdb

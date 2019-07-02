@@ -38,3 +38,22 @@ C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Debug\netco
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csproj.CopyComplete
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.dll
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.pdb
+C:\BBA\JobRunner\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.deps.json
+C:\BBA\JobRunner\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.json
+C:\BBA\JobRunner\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.dev.json
+C:\BBA\JobRunner\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.dll
+C:\BBA\JobRunner\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.pdb
+C:\BBA\JobRunner\WebAPI\bin\Debug\netcoreapp2.2\CommonCode.dll
+C:\BBA\JobRunner\WebAPI\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\BBA\JobRunner\WebAPI\bin\Debug\netcoreapp2.2\CommonCode.pdb
+C:\BBA\JobRunner\WebAPI\bin\Debug\netcoreapp2.2\CommonCode.dll.config
+C:\BBA\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csprojAssemblyReference.cache
+C:\BBA\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csproj.CoreCompileInputs.cache
+C:\BBA\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cache
+C:\BBA\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cs
+C:\BBA\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfoInputs.cache
+C:\BBA\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfo.cs
+C:\BBA\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorTargetAssemblyInfo.cache
+C:\BBA\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csproj.CopyComplete
+C:\BBA\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.dll
+C:\BBA\JobRunner\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.pdb
