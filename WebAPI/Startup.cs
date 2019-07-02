@@ -10,7 +10,6 @@ namespace WebAPI
     {
         public Startup(IConfiguration configuration)
 		{
-			//CommonCode.DataLayer.Const.Initialize(@"WebAPI\");
 			Configuration = configuration;
         }
 

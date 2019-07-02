@@ -6,7 +6,7 @@ namespace CommonCode.DataLayer
 {
 	public class Const
 	{
-		private static bool IsInitialized = false;
+		public static bool IsInitialized { get; private set; } = false;
 
 		public static string FOLDER_SOLUTION_ROOT;
 		public static string FOLDER_JOBS_BIN;
@@ -45,14 +45,15 @@ namespace CommonCode.DataLayer
 
 		public static void Initialize(string binFolder_SectionAfterRoot)
 		{
-			if (IsInitialized)
-				throw new InvalidOperationException("Should probably not initialize Const twice.");
+			//if (IsInitialized)
+			//	throw new InvalidOperationException("Should probably not initialize Const twice.");
 
 			FOLDER_SOLUTION_ROOT = @"C:\BBA\JobRunner\";
 			FOLDER_JOBS_BIN = Path.Combine(FOLDER_SOLUTION_ROOT, binFolder_SectionAfterRoot).EnsureEndsWith(@"\");
 
 			if (!FOLDER_JOBS_BIN.Equals(Environment.CurrentDirectory.EnsureEndsWith(@"\")))
-				throw new ApplicationException($"ERROR: The application is not running from where it's supposed to (Expected FOLDER_JOBS_BIN='{FOLDER_JOBS_BIN}', actual Environment.CurrentDirectory='{Environment.CurrentDirectory}').");
+				File.WriteAllText("this-log.txt", $"ERROR: The application is not running from where it's supposed to (Expected FOLDER_JOBS_BIN='{FOLDER_JOBS_BIN}', actual Environment.CurrentDirectory='{Environment.CurrentDirectory}').");
+				//throw new ApplicationException($"ERROR: The application is not running from where it's supposed to (Expected FOLDER_JOBS_BIN='{FOLDER_JOBS_BIN}', actual Environment.CurrentDirectory='{Environment.CurrentDirectory}').");
 
 			FOLDER_PROGRAM_FILES = FOLDER_SOLUTION_ROOT + @"program-files\";
 			FOLDER_DATABASES = FOLDER_PROGRAM_FILES + @"databases\";

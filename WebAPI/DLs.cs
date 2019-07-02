@@ -2,9 +2,14 @@
 
 namespace WebAPI
 {
-    public static class DLs
-    {
-        private static JobLoggingDL jobLogging;
-        public static JobLoggingDL JobLogging { get { if (jobLogging == null) jobLogging = new JobLoggingDL(); return jobLogging; } }
-    }
+	public static class DLs
+	{
+		private static JobLoggingDL jobLogging;
+		public static JobLoggingDL JobLogging { get { if (jobLogging == null) jobLogging = new JobLoggingDL(); return jobLogging; } }
+
+		public static void Setup()
+		{
+			CommonCode.DataLayer.Const.Initialize(@"WebAPI\");
+		}
+	}
 }
