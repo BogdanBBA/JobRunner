@@ -40,8 +40,6 @@ namespace CommonCode.DataLayer
 		{
 			if (connection == null || (connection.State == ConnectionState.Broken || connection.State == ConnectionState.Closed))
 			{
-				if (Environment.MachineName.ToUpperInvariant().Contains("VIVO")) // is deployment environment
-					filePath = Path.Combine(Const.FOLDER_DATABASES_DEPLOYMENT_ENVIRONMENT, Path.GetFileName(filePath));
 				connection = new SQLiteConnection($"Data Source={filePath};Version=3;");
 				connection.Open();
 			}
