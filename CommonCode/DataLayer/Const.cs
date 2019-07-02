@@ -52,8 +52,10 @@ namespace CommonCode.DataLayer
 			FOLDER_JOBS_BIN = Path.Combine(FOLDER_SOLUTION_ROOT, binFolder_SectionAfterRoot).EnsureEndsWith(@"\");
 
 			if (!FOLDER_JOBS_BIN.Equals(Environment.CurrentDirectory.EnsureEndsWith(@"\")))
-				//File.WriteAllText("this-log.txt", $"ERROR: The application is not running from where it's supposed to (Expected FOLDER_JOBS_BIN='{FOLDER_JOBS_BIN}', actual Environment.CurrentDirectory='{Environment.CurrentDirectory}').");
+			{
+				File.WriteAllText("this-log.txt", $"ERROR: The application is not running from where it's supposed to (Expected FOLDER_JOBS_BIN='{FOLDER_JOBS_BIN}', actual Environment.CurrentDirectory='{Environment.CurrentDirectory}').");
 				throw new ApplicationException($"ERROR: The application is not running from where it's supposed to (Expected FOLDER_JOBS_BIN='{FOLDER_JOBS_BIN}', actual Environment.CurrentDirectory='{Environment.CurrentDirectory}').");
+			}
 
 			FOLDER_PROGRAM_FILES = FOLDER_SOLUTION_ROOT + @"program-files\";
 			FOLDER_DATABASES = FOLDER_PROGRAM_FILES + @"databases\";
