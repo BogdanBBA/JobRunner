@@ -1,4 +1,5 @@
-﻿using Jobs.JobLogging;
+﻿using CommonCode.DataLayer;
+using Jobs.JobLogging;
 
 namespace WebAPI
 {
@@ -9,7 +10,8 @@ namespace WebAPI
 
 		public static void Setup()
 		{
-			CommonCode.DataLayer.Const.Initialize(@"WebAPI\");
+			if (!Const.IsInitialized)
+				Const.Initialize(@"WebAPI\");
 		}
 	}
 }

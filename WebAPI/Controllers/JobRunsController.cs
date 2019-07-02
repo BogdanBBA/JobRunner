@@ -13,6 +13,7 @@ namespace WebAPI.Controllers
 		[HttpGet]
 		public APIResult<List<RunDTO>> Last24h()
 		{
+			DLs.Setup();
 			try
 			{
 				return new APIResult<List<RunDTO>>(DLs.JobLogging.SelectLast24hLogs());
@@ -31,6 +32,7 @@ namespace WebAPI.Controllers
 		[HttpGet]
 		public APIResult<List<RunDTO>> Last24hErrors()
 		{
+			DLs.Setup();
 			try
 			{
 				return new APIResult<List<RunDTO>>(DLs.JobLogging.SelectLast24hErrorLogs());

@@ -14,12 +14,22 @@ namespace WebAPI.Controllers
 
     [Route("api/food-delivery")]
     public class FoodDeliveryController : Controller
-    {
-        [Route("list-restaurants")]
+	{
+		private static List<Ingridients> ParseIngridients(string list)
+		{
+			if (FoodDeliveryUtils.ProcessNameFilter(list) == null)
+				return null;
+			return new List<Ingridients>(
+				list.Split(',', StringSplitOptions.RemoveEmptyEntries).ToList()
+					.Select(p => (Ingridients)int.Parse(p)));
+		}
+
+		[Route("list-restaurants")]
         [HttpGet]
         public APIResult<Dictionary<int, string>> ListRestaurants()
-        {
-            try
+		{
+			DLs.Setup();
+			try
             {
                 Dictionary<int, string> result = new Dictionary<int, string>();
                 Dictionary<Restaurants, RestaurantProperties> properties = RestaurantsOrganizer.Instance.Properties;
@@ -35,8 +45,9 @@ namespace WebAPI.Controllers
         [Route("list-ingridients")]
         [HttpGet]
         public APIResult<Dictionary<int, string>> ListIngridients()
-        {
-            try
+		{
+			DLs.Setup();
+			try
             {
                 Dictionary<int, string> result = new Dictionary<int, string>();
                 Dictionary<Ingridients, IngridientProperties> properties = IngridientsOrganizer.Instance.Properties;
@@ -52,8 +63,9 @@ namespace WebAPI.Controllers
         [Route("list-food-sources")]
         [HttpGet]
         public APIResult<Dictionary<int, string>> ListFoodSources()
-        {
-            try
+		{
+			DLs.Setup();
+			try
             {
                 Dictionary<int, string> result = new Dictionary<int, string>();
                 foreach (FoodSource item in Enum.GetValues(typeof(FoodSource)))
@@ -69,8 +81,9 @@ namespace WebAPI.Controllers
         [Route("filter-food/restaurant-name={restaurantName}&food-name={foodName}&worst-food-source={worstFoodSourceValue}&must-have={mustHaveList}&must-not-have={mustNotHaveList}")]
         [HttpGet]
         public APIResult<List<Food>> FilterFood(string restaurantName, string foodName, int worstFoodSourceValue, string mustHaveList, string mustNotHaveList)
-        {
-            try
+		{
+			DLs.Setup();
+			try
             {
                 FoodSource foodSource = (FoodSource)worstFoodSourceValue;
                 List<Ingridients> mustHave = ParseIngridients(mustHaveList);
@@ -90,15 +103,6 @@ namespace WebAPI.Controllers
             {
                 return new APIResult<List<Food>>(null, e.ToString());
             }
-        }
-
-        private static List<Ingridients> ParseIngridients(string list)
-        {
-            if (FoodDeliveryUtils.ProcessNameFilter(list) == null)
-                return null;
-            return new List<Ingridients>(
-                list.Split(',', StringSplitOptions.RemoveEmptyEntries).ToList()
-                    .Select(p => (Ingridients)int.Parse(p)));
         }
     }
 }
