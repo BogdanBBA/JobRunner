@@ -34,3 +34,4 @@ C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Debug\S
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\obj\Debug\CommonCode.csproj.CopyComplete
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\obj\Debug\CommonCode.dll
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\obj\Debug\CommonCode.pdb
+C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\obj\Debug\CommonCode.csprojAssemblyReference.cache
