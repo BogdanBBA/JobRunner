@@ -12,6 +12,7 @@ namespace CommonCode.DataLayer
         public static readonly string FOLDER_JOBS_BIN;
         public static readonly string FOLDER_PROGRAM_FILES;
         public static readonly string FOLDER_DATABASES;
+		public static readonly string FOLDER_DATABASES_DEPLOYMENT_ENVIRONMENT;
         public static readonly string FOLDER_JOBS_IMAGE_RESOURCES;
         public static readonly string FOLDER_WEBSTORE_PRODUCT_THUMBNAILS;
 
@@ -54,6 +55,7 @@ namespace CommonCode.DataLayer
             FOLDER_JOBS_BIN = FOLDER_SOLUTION_ROOT + @"Jobs\bin\Debug\";
             FOLDER_PROGRAM_FILES = FOLDER_SOLUTION_ROOT + @"program-files\";
             FOLDER_DATABASES = FOLDER_PROGRAM_FILES + @"databases\";
+			FOLDER_DATABASES_DEPLOYMENT_ENVIRONMENT = @"C:\web-api-program-files\";
             FOLDER_JOBS_IMAGE_RESOURCES = FOLDER_SOLUTION_ROOT + @"Jobs\Properties\Images\";
             FOLDER_WEBSTORE_PRODUCT_THUMBNAILS = FOLDER_DATABASES + @"webstore-product-thumbnails\";
 
@@ -70,7 +72,7 @@ namespace CommonCode.DataLayer
             DATABASE_OPEN_WEATHER = FOLDER_DATABASES + "open-weather.sqlite";
             DATABASE_GOOGLE_FLIGHTS = FOLDER_DATABASES + "google-flights.sqlite";
 
-            foreach (string path in new string[] { FOLDER_PROGRAM_FILES, FOLDER_DATABASES, FOLDER_WEBSTORE_PRODUCT_THUMBNAILS })
+            foreach (string path in new string[] { FOLDER_PROGRAM_FILES, FOLDER_DATABASES, FOLDER_DATABASES_DEPLOYMENT_ENVIRONMENT, FOLDER_WEBSTORE_PRODUCT_THUMBNAILS })
                 if (!Directory.Exists(path))
                     Directory.CreateDirectory(path);
         }
