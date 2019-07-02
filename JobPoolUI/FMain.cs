@@ -31,10 +31,10 @@ namespace JobPoolUI
             InitializeComponent();
             InitializeJobControls();
 
-            using (RegistryKey appKey = Registry.CurrentUser.CreateSubKey(Const.REGISTRY_PATH))
-            {
-                appKey.SetValue(Const.REGISTRY_KEY_NAME, Path.GetFullPath(Directory.GetCurrentDirectory() + @"\..\..\..\"));
-            }
+            //using (RegistryKey appKey = Registry.CurrentUser.CreateSubKey(Const.REGISTRY_PATH))
+            //{
+            //    appKey.SetValue(Const.REGISTRY_KEY_NAME, Path.GetFullPath(Directory.GetCurrentDirectory() + @"\..\..\..\"));
+            //}
         }
 
         private void FMain_Load(object sender, EventArgs e)

@@ -6,8 +6,8 @@ namespace CommonCode.DataLayer
 {
 	public class Const
 	{
-		public const string REGISTRY_PATH = @"JobRunner";
-		public const string REGISTRY_KEY_NAME = "JobRunnerSolutionRootFolder";
+		//public const string REGISTRY_PATH = @"JobRunner";
+		//public const string REGISTRY_KEY_NAME = "JobRunnerSolutionRootFolder";
 
 		public static readonly string FOLDER_SOLUTION_ROOT;
 		public static readonly string FOLDER_JOBS_BIN;
@@ -46,17 +46,20 @@ namespace CommonCode.DataLayer
 
 		static Const()
 		{
-			FOLDER_SOLUTION_ROOT = Path.GetFullPath(Directory.GetCurrentDirectory() + @"\..\..\..\");
-			using (RegistryKey appKey = Registry.CurrentUser.OpenSubKey(REGISTRY_PATH, false))
-			{
-				FOLDER_SOLUTION_ROOT = appKey.GetValue(REGISTRY_KEY_NAME) as string;
-			}
+			//FOLDER_SOLUTION_ROOT = Path.GetFullPath(Directory.GetCurrentDirectory() + @"\..\..\..\");
+			//using (RegistryKey appKey = Registry.CurrentUser.OpenSubKey(REGISTRY_PATH, false))
+			//{
+			//	FOLDER_SOLUTION_ROOT = appKey.GetValue(REGISTRY_KEY_NAME) as string;
+			//}
 
+			FOLDER_SOLUTION_ROOT = @"C:\WebAPI\";
 			FOLDER_JOBS_BIN = FOLDER_SOLUTION_ROOT + @"Jobs\bin\Debug\";
+
+			if (!FOLDER_JOBS_BIN.Equals(Environment.CurrentDirectory))
+				throw new ApplicationException($"ERROR: The application is not running from where it's supposed to (Expected FOLDER_JOBS_BIN='{FOLDER_JOBS_BIN}', actual Environment.CurrentDirectory='{Environment.CurrentDirectory}').");
+
 			FOLDER_PROGRAM_FILES = FOLDER_SOLUTION_ROOT + @"program-files\";
-			FOLDER_DATABASES = /*Environment.MachineName.ToUpperInvariant().Contains("VIVO") // is deployment environment
-				?*/ @"C:\web-api-databases\"
-				/*: FOLDER_PROGRAM_FILES + @"databases\"*/;
+			FOLDER_DATABASES = FOLDER_PROGRAM_FILES + @"databases\";
 			FOLDER_JOBS_IMAGE_RESOURCES = FOLDER_SOLUTION_ROOT + @"Jobs\Properties\Images\";
 			FOLDER_WEBSTORE_PRODUCT_THUMBNAILS = FOLDER_DATABASES + @"webstore-product-thumbnails\";
 
