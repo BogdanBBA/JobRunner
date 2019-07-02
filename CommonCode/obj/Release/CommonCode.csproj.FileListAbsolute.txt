@@ -36,3 +36,24 @@ C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Release
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Release\Newtonsoft.Json.dll
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Release\Newtonsoft.Json.pdb
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\CommonCode\bin\Release\Newtonsoft.Json.xml
+C:\BBA\JobRunner\CommonCode\bin\Release\CommonCode.dll.config
+C:\BBA\JobRunner\CommonCode\bin\Release\CommonCode.dll
+C:\BBA\JobRunner\CommonCode\bin\Release\CommonCode.pdb
+C:\BBA\JobRunner\CommonCode\bin\Release\EntityFramework.dll
+C:\BBA\JobRunner\CommonCode\bin\Release\EntityFramework.SqlServer.dll
+C:\BBA\JobRunner\CommonCode\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\BBA\JobRunner\CommonCode\bin\Release\Newtonsoft.Json.dll
+C:\BBA\JobRunner\CommonCode\bin\Release\System.Data.SQLite.dll
+C:\BBA\JobRunner\CommonCode\bin\Release\System.Data.SQLite.EF6.dll
+C:\BBA\JobRunner\CommonCode\bin\Release\System.Data.SQLite.Linq.dll
+C:\BBA\JobRunner\CommonCode\bin\Release\EntityFramework.xml
+C:\BBA\JobRunner\CommonCode\bin\Release\EntityFramework.SqlServer.xml
+C:\BBA\JobRunner\CommonCode\bin\Release\Newtonsoft.Json.pdb
+C:\BBA\JobRunner\CommonCode\bin\Release\Newtonsoft.Json.xml
+C:\BBA\JobRunner\CommonCode\bin\Release\System.Data.SQLite.xml
+C:\BBA\JobRunner\CommonCode\bin\Release\System.Data.SQLite.dll.config
+C:\BBA\JobRunner\CommonCode\obj\Release\CommonCode.csprojAssemblyReference.cache
+C:\BBA\JobRunner\CommonCode\obj\Release\CommonCode.csproj.CoreCompileInputs.cache
+C:\BBA\JobRunner\CommonCode\obj\Release\CommonCode.csproj.CopyComplete
+C:\BBA\JobRunner\CommonCode\obj\Release\CommonCode.dll
+C:\BBA\JobRunner\CommonCode\obj\Release\CommonCode.pdb

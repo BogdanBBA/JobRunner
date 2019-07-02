@@ -84,8 +84,8 @@ namespace JobPoolUI
         {
             Process proc = Process.Start(new ProcessStartInfo(Const.FILE_JOBS_EXE)
             {
-                WorkingDirectory = Const.FOLDER_JOBS_BIN,
-                Arguments = $"{job.JobID}"
+                WorkingDirectory = Const.FOLDER_JOBS_BIN.Replace("JobPoolUI", "Jobs"),
+				Arguments = $"Jobs\\bin\\Debug {job.JobID}"
             });
             proc.WaitForExit();
             return proc.ExitCode;

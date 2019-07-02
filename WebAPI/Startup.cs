@@ -9,8 +9,9 @@ namespace WebAPI
     public class Startup
     {
         public Startup(IConfiguration configuration)
-        {
-            Configuration = configuration;
+		{
+			CommonCode.DataLayer.Const.Initialize(@"WebAPI\");
+			Configuration = configuration;
         }
 
         public IConfiguration Configuration { get; }

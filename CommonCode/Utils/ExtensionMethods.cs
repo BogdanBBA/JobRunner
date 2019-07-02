@@ -85,5 +85,10 @@ namespace CommonCode.Utils
         {
             return !list.ToList().Intersect(other.ToList()).Any();
         }
+
+		public static string EnsureEndsWith(this string text, string suffix)
+		{
+			return text.EndsWith(suffix) ? text : text + suffix;
+		}
     }
 }

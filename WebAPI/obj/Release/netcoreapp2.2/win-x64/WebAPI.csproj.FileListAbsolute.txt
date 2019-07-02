@@ -44,3 +44,25 @@ C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\bin\Release\net
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\bin\Release\netcoreapp2.2\win-x64\CommonCode.dll.config
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Release\netcoreapp2.2\win-x64\WebAPI.csprojAssemblyReference.cache
 C:\Users\Duedie Xyz\Documents\Z. Programming\C#\JobRunner\WebAPI\obj\Release\netcoreapp2.2\win-x64\WebAPI.csproj.CopyComplete
+C:\BBA\JobRunner\WebAPI\bin\Release\netcoreapp2.2\win-x64\WebAPI.exe
+C:\BBA\JobRunner\WebAPI\bin\Release\netcoreapp2.2\win-x64\hostpolicy.dll
+C:\BBA\JobRunner\WebAPI\bin\Release\netcoreapp2.2\win-x64\hostfxr.dll
+C:\BBA\JobRunner\WebAPI\bin\Release\netcoreapp2.2\win-x64\WebAPI.deps.json
+C:\BBA\JobRunner\WebAPI\bin\Release\netcoreapp2.2\win-x64\WebAPI.runtimeconfig.json
+C:\BBA\JobRunner\WebAPI\bin\Release\netcoreapp2.2\win-x64\WebAPI.runtimeconfig.dev.json
+C:\BBA\JobRunner\WebAPI\bin\Release\netcoreapp2.2\win-x64\WebAPI.dll
+C:\BBA\JobRunner\WebAPI\bin\Release\netcoreapp2.2\win-x64\WebAPI.pdb
+C:\BBA\JobRunner\WebAPI\bin\Release\netcoreapp2.2\win-x64\CommonCode.dll
+C:\BBA\JobRunner\WebAPI\bin\Release\netcoreapp2.2\win-x64\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\BBA\JobRunner\WebAPI\bin\Release\netcoreapp2.2\win-x64\CommonCode.pdb
+C:\BBA\JobRunner\WebAPI\bin\Release\netcoreapp2.2\win-x64\CommonCode.dll.config
+C:\BBA\JobRunner\WebAPI\obj\Release\netcoreapp2.2\win-x64\WebAPI.csprojAssemblyReference.cache
+C:\BBA\JobRunner\WebAPI\obj\Release\netcoreapp2.2\win-x64\WebAPI.csproj.CoreCompileInputs.cache
+C:\BBA\JobRunner\WebAPI\obj\Release\netcoreapp2.2\win-x64\WebAPI.RazorAssemblyInfo.cache
+C:\BBA\JobRunner\WebAPI\obj\Release\netcoreapp2.2\win-x64\WebAPI.RazorAssemblyInfo.cs
+C:\BBA\JobRunner\WebAPI\obj\Release\netcoreapp2.2\win-x64\WebAPI.AssemblyInfoInputs.cache
+C:\BBA\JobRunner\WebAPI\obj\Release\netcoreapp2.2\win-x64\WebAPI.AssemblyInfo.cs
+C:\BBA\JobRunner\WebAPI\obj\Release\netcoreapp2.2\win-x64\WebAPI.RazorTargetAssemblyInfo.cache
+C:\BBA\JobRunner\WebAPI\obj\Release\netcoreapp2.2\win-x64\WebAPI.csproj.CopyComplete
+C:\BBA\JobRunner\WebAPI\obj\Release\netcoreapp2.2\win-x64\WebAPI.dll
+C:\BBA\JobRunner\WebAPI\obj\Release\netcoreapp2.2\win-x64\WebAPI.pdb

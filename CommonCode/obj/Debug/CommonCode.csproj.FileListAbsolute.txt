@@ -39,7 +39,6 @@ C:\BBA\JobRunner\CommonCode\bin\Debug\CommonCode.dll
 C:\BBA\JobRunner\CommonCode\bin\Debug\CommonCode.pdb
 C:\BBA\JobRunner\CommonCode\bin\Debug\EntityFramework.dll
 C:\BBA\JobRunner\CommonCode\bin\Debug\EntityFramework.SqlServer.dll
-C:\BBA\JobRunner\CommonCode\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\BBA\JobRunner\CommonCode\bin\Debug\Newtonsoft.Json.dll
 C:\BBA\JobRunner\CommonCode\bin\Debug\System.Data.SQLite.dll
 C:\BBA\JobRunner\CommonCode\bin\Debug\System.Data.SQLite.EF6.dll
@@ -50,8 +49,8 @@ C:\BBA\JobRunner\CommonCode\bin\Debug\Newtonsoft.Json.pdb
 C:\BBA\JobRunner\CommonCode\bin\Debug\Newtonsoft.Json.xml
 C:\BBA\JobRunner\CommonCode\bin\Debug\System.Data.SQLite.xml
 C:\BBA\JobRunner\CommonCode\bin\Debug\System.Data.SQLite.dll.config
-C:\BBA\JobRunner\CommonCode\obj\Debug\CommonCode.csprojAssemblyReference.cache
 C:\BBA\JobRunner\CommonCode\obj\Debug\CommonCode.csproj.CoreCompileInputs.cache
 C:\BBA\JobRunner\CommonCode\obj\Debug\CommonCode.csproj.CopyComplete
 C:\BBA\JobRunner\CommonCode\obj\Debug\CommonCode.dll
 C:\BBA\JobRunner\CommonCode\obj\Debug\CommonCode.pdb
+C:\BBA\JobRunner\CommonCode\obj\Debug\CommonCode.csprojAssemblyReference.cache

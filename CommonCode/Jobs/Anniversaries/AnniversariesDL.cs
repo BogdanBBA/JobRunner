@@ -48,7 +48,7 @@ namespace Jobs.Anniversaries
             InsertData(AnniversariesTables.Anniversaries, "'Elena Giurgi', 1, DATE('1900-01-01'), 4, 3");
             InsertData(AnniversariesTables.Anniversaries, "'Lavinia Gomoi', 1, DATE('1991-07-05'), 4, 7");
             InsertData(AnniversariesTables.Anniversaries, "'Georgeta Gomoi', 1, DATE('1949-01-31'), 4, 3");
-            InsertData(AnniversariesTables.Anniversaries, "'Ion Gomoi', 1, DATE('1956-10-23'), 4, 3");
+            InsertData(AnniversariesTables.Anniversaries, "'Ioan Gomoi', 1, DATE('1956-10-21'), 4, 3");
             InsertData(AnniversariesTables.Anniversaries, "'Sorin Silaghiu', 1, DATE('1983-08-31'), 4, 1");
             InsertData(AnniversariesTables.Anniversaries, "'Lav+BBA anniversary', 3, DATE('2016-04-16'), 3, 0");
             InsertData(AnniversariesTables.Anniversaries, "'Lav+BBA first kiss', 3, DATE('2016-04-20'), 3, 0");
