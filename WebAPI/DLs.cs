@@ -5,7 +5,7 @@ namespace WebAPI
 {
 	public static class DLs
 	{
-		public const bool LOCAL_DEBUGGING_MODE = true;
+		public const bool LOCAL_DEBUGGING_MODE = false;
 
 		private static JobLoggingDL jobLogging;
 		public static JobLoggingDL JobLogging { get { if (jobLogging == null) jobLogging = new JobLoggingDL(); return jobLogging; } }
