@@ -54,3 +54,4 @@ C:\BBA\JobRunner\CommonCode\obj\Debug\CommonCode.csproj.CopyComplete
 C:\BBA\JobRunner\CommonCode\obj\Debug\CommonCode.dll
 C:\BBA\JobRunner\CommonCode\obj\Debug\CommonCode.pdb
 C:\BBA\JobRunner\CommonCode\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\BBA\JobRunner\CommonCode\obj\Debug\CommonCode.csprojAssemblyReference.cache
